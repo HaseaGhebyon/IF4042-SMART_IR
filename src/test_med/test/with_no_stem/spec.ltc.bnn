@@ -1,0 +1,7 @@
+include_file /home/smart/src/test_med/indexed/with_no_stem/spec
+query_file query.bnn
+doc_file doc.ltc
+inv_file inv.ltc
+tr_file ./tr.ltc.bnn
+rr_file ./rr.ltc.bnn
+run_name " Doc weight == ltc; Query weight == bnn;"

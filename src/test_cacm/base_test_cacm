@@ -1,0 +1,60 @@
+#! /bin/tcsh
+
+set bin = /home/smart/src/bin
+set current = /home/smart/src/test_cacm
+set database = $current/indexed
+set database_stem = $database/with_stem
+set database_no_stem = $database/with_no_stem
+
+set test = $current/test
+set test_stem = $test/with_stem
+set test_no_stem = $test/with_no_stem
+
+/bin/rm -rf $test
+mkdir $test
+cd $test
+
+
+# =======================================================
+# Make the cacm test collection with stem
+
+mkdir $test_stem
+cd $test_stem
+
+# Perform two retrieval runs with the vectors already prepared by make_cacm
+cat > spec.nnn << EOF
+include_file $database_stem/spec
+tr_file ./tr.nnn # Retrieve n document
+rr_file ./rr.nnn # Retrieve all relevant document
+run_name "Doc weight == Query weight == nnn"
+EOF
+
+$bin/smart retrieve spec.nnn
+echo "retrieval run nnn.nnn done"
+
+# =======================================================
+# back directory
+cd $test
+
+# =======================================================
+# Make the cacm test collection with stem
+
+mkdir $test_no_stem
+cd $test_no_stem
+
+# Perform two retrieval runs with the vectors already prepared by make_cacm
+cat > spec.nnn << EOF
+include_file $database_no_stem/spec
+tr_file ./tr.nnn # Retrieve n document
+rr_file ./rr.nnn # Retrieve all relevant document
+run_name "Doc weight == Query weight == nnn"
+EOF
+
+$bin/smart retrieve spec.nnn
+echo "retrieval run nnn.nnn done"
+
+# =======================================================
+# back directory
+cd $test
+
+

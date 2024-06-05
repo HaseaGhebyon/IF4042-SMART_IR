@@ -1,0 +1,7 @@
+include_file /home/smart/src/test_adi/indexed/with_stem/spec
+query_file query.bnc
+doc_file doc.nnc
+inv_file inv.nnc
+tr_file ./tr.nnc.bnc
+rr_file ./rr.nnc.bnc
+run_name " Doc weight == nnc; Query weight == bnc;"

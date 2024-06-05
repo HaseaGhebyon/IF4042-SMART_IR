@@ -1,0 +1,24 @@
+## INFORMATION LOCATIONS
+database                /home/smart/src/test_npl/indexed/with_stem
+include_file            /home/smart/lib/spec.expcoll
+# doc_loc                 /home/smart/src/test_npl/indexed/doc_loc
+# query_loc               /home/smart/src/test_npl/indexed/query_loc
+qrels_text_file         /home/smart/src/test_npl/coll/term-mst
+
+## NPL DOCDESC
+#### GENERIC PREPARSER
+num_pp_sections                 0
+#### DESCRIPTION OF PARSE INPUT
+index.num_sections              0
+title_section                   0
+
+#### DESCRIPTION OF FINAL VECTORS
+num_ctypes                      1
+ctype.0.name                    words
+
+## ALTERATIONS OF STANDARD PARAMETERS
+rmode                           SRDONLY|SMMAP
+rwmode                          SRDWR|SINCORE
+rwcmode                         SRDWR|SCREATE|SINCORE
+textloc_file                    -
+

@@ -1,0 +1,7 @@
+include_file /home/smart/src/test_cacm/indexed/with_no_stem/spec
+query_file query.anc
+doc_file doc.atc
+inv_file inv.atc
+tr_file ./tr.atc.anc
+rr_file ./rr.atc.anc
+run_name " Doc weight == atc; Query weight == anc;"

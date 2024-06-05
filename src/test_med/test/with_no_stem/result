@@ -1,0 +1,3840 @@
+METHOD nnn.nnn
+
+
+Average precision for all points
+   11-pt Avg:     0.4261 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4174 
+Recall:
+    Exact:        0.4998
+Precision:
+    Exact:        0.3644
+Truncated Precision:
+    Exact:        0.3644
+
+----------------------------------------
+METHOD nnn.ntn
+
+
+Average precision for all points
+   11-pt Avg:     0.4642 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4681 
+Recall:
+    Exact:        0.5287
+Precision:
+    Exact:        0.3811
+Truncated Precision:
+    Exact:        0.3811
+
+----------------------------------------
+METHOD nnn.nnc
+
+
+Average precision for all points
+   11-pt Avg:     0.4257 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4192 
+Recall:
+    Exact:        0.4989
+Precision:
+    Exact:        0.3633
+Truncated Precision:
+    Exact:        0.3633
+
+----------------------------------------
+METHOD nnn.ntc
+
+
+Average precision for all points
+   11-pt Avg:     0.4642 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4681 
+Recall:
+    Exact:        0.5287
+Precision:
+    Exact:        0.3811
+Truncated Precision:
+    Exact:        0.3811
+
+----------------------------------------
+METHOD nnn.bnn
+
+
+Average precision for all points
+   11-pt Avg:     0.4261 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4142 
+Recall:
+    Exact:        0.5014
+Precision:
+    Exact:        0.3667
+Truncated Precision:
+    Exact:        0.3667
+
+----------------------------------------
+METHOD nnn.btn
+
+
+Average precision for all points
+   11-pt Avg:     0.4660 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4698 
+Recall:
+    Exact:        0.5326
+Precision:
+    Exact:        0.3867
+Truncated Precision:
+    Exact:        0.3867
+
+----------------------------------------
+METHOD nnn.bnc
+
+
+Average precision for all points
+   11-pt Avg:     0.4259 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4151 
+Recall:
+    Exact:        0.4978
+Precision:
+    Exact:        0.3633
+Truncated Precision:
+    Exact:        0.3633
+
+----------------------------------------
+METHOD nnn.btc
+
+
+Average precision for all points
+   11-pt Avg:     0.4660 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4698 
+Recall:
+    Exact:        0.5326
+Precision:
+    Exact:        0.3867
+Truncated Precision:
+    Exact:        0.3867
+
+----------------------------------------
+METHOD nnn.ann
+
+
+Average precision for all points
+   11-pt Avg:     0.4235 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4082 
+Recall:
+    Exact:        0.5009
+Precision:
+    Exact:        0.3667
+Truncated Precision:
+    Exact:        0.3667
+
+----------------------------------------
+METHOD nnn.atn
+
+
+Average precision for all points
+   11-pt Avg:     0.4645 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4668 
+Recall:
+    Exact:        0.5351
+Precision:
+    Exact:        0.3878
+Truncated Precision:
+    Exact:        0.3878
+
+----------------------------------------
+METHOD nnn.anc
+
+
+Average precision for all points
+   11-pt Avg:     0.4224 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4066 
+Recall:
+    Exact:        0.4988
+Precision:
+    Exact:        0.3644
+Truncated Precision:
+    Exact:        0.3644
+
+----------------------------------------
+METHOD nnn.atc
+
+
+Average precision for all points
+   11-pt Avg:     0.4645 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4668 
+Recall:
+    Exact:        0.5351
+Precision:
+    Exact:        0.3878
+Truncated Precision:
+    Exact:        0.3878
+
+----------------------------------------
+METHOD nnn.lnn
+
+
+Average precision for all points
+   11-pt Avg:     0.4257 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4161 
+Recall:
+    Exact:        0.5023
+Precision:
+    Exact:        0.3678
+Truncated Precision:
+    Exact:        0.3678
+
+----------------------------------------
+METHOD nnn.ltn
+
+
+Average precision for all points
+   11-pt Avg:     0.4679 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4711 
+Recall:
+    Exact:        0.5333
+Precision:
+    Exact:        0.3856
+Truncated Precision:
+    Exact:        0.3856
+
+----------------------------------------
+METHOD nnn.lnc
+
+
+Average precision for all points
+   11-pt Avg:     0.4254 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4162 
+Recall:
+    Exact:        0.5015
+Precision:
+    Exact:        0.3667
+Truncated Precision:
+    Exact:        0.3667
+
+----------------------------------------
+METHOD nnn.ltc
+
+
+Average precision for all points
+   11-pt Avg:     0.4679 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4711 
+Recall:
+    Exact:        0.5333
+Precision:
+    Exact:        0.3856
+Truncated Precision:
+    Exact:        0.3856
+
+----------------------------------------
+METHOD ntn.nnn
+
+
+Average precision for all points
+   11-pt Avg:     0.4642 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4681 
+Recall:
+    Exact:        0.5287
+Precision:
+    Exact:        0.3811
+Truncated Precision:
+    Exact:        0.3811
+
+----------------------------------------
+METHOD ntn.ntn
+
+
+Average precision for all points
+   11-pt Avg:     0.4834 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4933 
+Recall:
+    Exact:        0.5406
+Precision:
+    Exact:        0.3889
+Truncated Precision:
+    Exact:        0.3889
+
+----------------------------------------
+METHOD ntn.nnc
+
+
+Average precision for all points
+   11-pt Avg:     0.4642 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4681 
+Recall:
+    Exact:        0.5287
+Precision:
+    Exact:        0.3811
+Truncated Precision:
+    Exact:        0.3811
+
+----------------------------------------
+METHOD ntn.ntc
+
+
+Average precision for all points
+   11-pt Avg:     0.4833 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4932 
+Recall:
+    Exact:        0.5406
+Precision:
+    Exact:        0.3889
+Truncated Precision:
+    Exact:        0.3889
+
+----------------------------------------
+METHOD ntn.bnn
+
+
+Average precision for all points
+   11-pt Avg:     0.4660 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4698 
+Recall:
+    Exact:        0.5326
+Precision:
+    Exact:        0.3867
+Truncated Precision:
+    Exact:        0.3867
+
+----------------------------------------
+METHOD ntn.btn
+
+
+Average precision for all points
+   11-pt Avg:     0.4896 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4997 
+Recall:
+    Exact:        0.5498
+Precision:
+    Exact:        0.3978
+Truncated Precision:
+    Exact:        0.3978
+
+----------------------------------------
+METHOD ntn.bnc
+
+
+Average precision for all points
+   11-pt Avg:     0.4660 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4698 
+Recall:
+    Exact:        0.5326
+Precision:
+    Exact:        0.3867
+Truncated Precision:
+    Exact:        0.3867
+
+----------------------------------------
+METHOD ntn.btc
+
+
+Average precision for all points
+   11-pt Avg:     0.4895 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4996 
+Recall:
+    Exact:        0.5498
+Precision:
+    Exact:        0.3978
+Truncated Precision:
+    Exact:        0.3978
+
+----------------------------------------
+METHOD ntn.ann
+
+
+Average precision for all points
+   11-pt Avg:     0.4645 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4668 
+Recall:
+    Exact:        0.5351
+Precision:
+    Exact:        0.3878
+Truncated Precision:
+    Exact:        0.3878
+
+----------------------------------------
+METHOD ntn.atn
+
+
+Average precision for all points
+   11-pt Avg:     0.4882 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4984 
+Recall:
+    Exact:        0.5484
+Precision:
+    Exact:        0.3967
+Truncated Precision:
+    Exact:        0.3967
+
+----------------------------------------
+METHOD ntn.anc
+
+
+Average precision for all points
+   11-pt Avg:     0.4645 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4668 
+Recall:
+    Exact:        0.5351
+Precision:
+    Exact:        0.3878
+Truncated Precision:
+    Exact:        0.3878
+
+----------------------------------------
+METHOD ntn.atc
+
+
+Average precision for all points
+   11-pt Avg:     0.4881 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4983 
+Recall:
+    Exact:        0.5484
+Precision:
+    Exact:        0.3967
+Truncated Precision:
+    Exact:        0.3967
+
+----------------------------------------
+METHOD ntn.lnn
+
+
+Average precision for all points
+   11-pt Avg:     0.4679 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4711 
+Recall:
+    Exact:        0.5333
+Precision:
+    Exact:        0.3856
+Truncated Precision:
+    Exact:        0.3856
+
+----------------------------------------
+METHOD ntn.ltn
+
+
+Average precision for all points
+   11-pt Avg:     0.4865 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4965 
+Recall:
+    Exact:        0.5495
+Precision:
+    Exact:        0.3967
+Truncated Precision:
+    Exact:        0.3967
+
+----------------------------------------
+METHOD ntn.lnc
+
+
+Average precision for all points
+   11-pt Avg:     0.4679 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4711 
+Recall:
+    Exact:        0.5333
+Precision:
+    Exact:        0.3856
+Truncated Precision:
+    Exact:        0.3856
+
+----------------------------------------
+METHOD ntn.ltc
+
+
+Average precision for all points
+   11-pt Avg:     0.4865 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4964 
+Recall:
+    Exact:        0.5495
+Precision:
+    Exact:        0.3967
+Truncated Precision:
+    Exact:        0.3967
+
+----------------------------------------
+METHOD nnc.nnn
+
+
+Average precision for all points
+   11-pt Avg:     0.4777 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4713 
+Recall:
+    Exact:        0.5350
+Precision:
+    Exact:        0.3900
+Truncated Precision:
+    Exact:        0.3900
+
+----------------------------------------
+METHOD nnc.ntn
+
+
+Average precision for all points
+   11-pt Avg:     0.5110 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5207 
+Recall:
+    Exact:        0.5551
+Precision:
+    Exact:        0.4033
+Truncated Precision:
+    Exact:        0.4033
+
+----------------------------------------
+METHOD nnc.nnc
+
+
+Average precision for all points
+   11-pt Avg:     0.4777 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4713 
+Recall:
+    Exact:        0.5350
+Precision:
+    Exact:        0.3900
+Truncated Precision:
+    Exact:        0.3900
+
+----------------------------------------
+METHOD nnc.ntc
+
+
+Average precision for all points
+   11-pt Avg:     0.5110 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5207 
+Recall:
+    Exact:        0.5551
+Precision:
+    Exact:        0.4033
+Truncated Precision:
+    Exact:        0.4033
+
+----------------------------------------
+METHOD nnc.bnn
+
+
+Average precision for all points
+   11-pt Avg:     0.4834 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4777 
+Recall:
+    Exact:        0.5443
+Precision:
+    Exact:        0.4011
+Truncated Precision:
+    Exact:        0.4011
+
+----------------------------------------
+METHOD nnc.btn
+
+
+Average precision for all points
+   11-pt Avg:     0.5171 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5324 
+Recall:
+    Exact:        0.5715
+Precision:
+    Exact:        0.4189
+Truncated Precision:
+    Exact:        0.4189
+
+----------------------------------------
+METHOD nnc.bnc
+
+
+Average precision for all points
+   11-pt Avg:     0.4834 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4777 
+Recall:
+    Exact:        0.5443
+Precision:
+    Exact:        0.4011
+Truncated Precision:
+    Exact:        0.4011
+
+----------------------------------------
+METHOD nnc.btc
+
+
+Average precision for all points
+   11-pt Avg:     0.5171 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5324 
+Recall:
+    Exact:        0.5715
+Precision:
+    Exact:        0.4189
+Truncated Precision:
+    Exact:        0.4189
+
+----------------------------------------
+METHOD nnc.ann
+
+
+Average precision for all points
+   11-pt Avg:     0.4826 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4791 
+Recall:
+    Exact:        0.5470
+Precision:
+    Exact:        0.4044
+Truncated Precision:
+    Exact:        0.4044
+
+----------------------------------------
+METHOD nnc.atn
+
+
+Average precision for all points
+   11-pt Avg:     0.5211 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5356 
+Recall:
+    Exact:        0.5701
+Precision:
+    Exact:        0.4178
+Truncated Precision:
+    Exact:        0.4178
+
+----------------------------------------
+METHOD nnc.anc
+
+
+Average precision for all points
+   11-pt Avg:     0.4826 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4791 
+Recall:
+    Exact:        0.5470
+Precision:
+    Exact:        0.4044
+Truncated Precision:
+    Exact:        0.4044
+
+----------------------------------------
+METHOD nnc.atc
+
+
+Average precision for all points
+   11-pt Avg:     0.5211 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5356 
+Recall:
+    Exact:        0.5701
+Precision:
+    Exact:        0.4178
+Truncated Precision:
+    Exact:        0.4178
+
+----------------------------------------
+METHOD nnc.lnn
+
+
+Average precision for all points
+   11-pt Avg:     0.4818 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4776 
+Recall:
+    Exact:        0.5423
+Precision:
+    Exact:        0.3989
+Truncated Precision:
+    Exact:        0.3989
+
+----------------------------------------
+METHOD nnc.ltn
+
+
+Average precision for all points
+   11-pt Avg:     0.5157 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5280 
+Recall:
+    Exact:        0.5633
+Precision:
+    Exact:        0.4111
+Truncated Precision:
+    Exact:        0.4111
+
+----------------------------------------
+METHOD nnc.lnc
+
+
+Average precision for all points
+   11-pt Avg:     0.4818 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4776 
+Recall:
+    Exact:        0.5423
+Precision:
+    Exact:        0.3989
+Truncated Precision:
+    Exact:        0.3989
+
+----------------------------------------
+METHOD nnc.ltc
+
+
+Average precision for all points
+   11-pt Avg:     0.5157 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5280 
+Recall:
+    Exact:        0.5633
+Precision:
+    Exact:        0.4111
+Truncated Precision:
+    Exact:        0.4111
+
+----------------------------------------
+METHOD ntc.nnn
+
+
+Average precision for all points
+   11-pt Avg:     0.5020 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5142 
+Recall:
+    Exact:        0.5527
+Precision:
+    Exact:        0.4022
+Truncated Precision:
+    Exact:        0.4022
+
+----------------------------------------
+METHOD ntc.ntn
+
+
+Average precision for all points
+   11-pt Avg:     0.5139 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5246 
+Recall:
+    Exact:        0.5836
+Precision:
+    Exact:        0.4178
+Truncated Precision:
+    Exact:        0.4178
+
+----------------------------------------
+METHOD ntc.nnc
+
+
+Average precision for all points
+   11-pt Avg:     0.5020 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5142 
+Recall:
+    Exact:        0.5527
+Precision:
+    Exact:        0.4022
+Truncated Precision:
+    Exact:        0.4022
+
+----------------------------------------
+METHOD ntc.ntc
+
+
+Average precision for all points
+   11-pt Avg:     0.5139 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5246 
+Recall:
+    Exact:        0.5836
+Precision:
+    Exact:        0.4178
+Truncated Precision:
+    Exact:        0.4178
+
+----------------------------------------
+METHOD ntc.bnn
+
+
+Average precision for all points
+   11-pt Avg:     0.5072 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5170 
+Recall:
+    Exact:        0.5641
+Precision:
+    Exact:        0.4133
+Truncated Precision:
+    Exact:        0.4133
+
+----------------------------------------
+METHOD ntc.btn
+
+
+Average precision for all points
+   11-pt Avg:     0.5210 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5317 
+Recall:
+    Exact:        0.5935
+Precision:
+    Exact:        0.4289
+Truncated Precision:
+    Exact:        0.4289
+
+----------------------------------------
+METHOD ntc.bnc
+
+
+Average precision for all points
+   11-pt Avg:     0.5072 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5170 
+Recall:
+    Exact:        0.5641
+Precision:
+    Exact:        0.4133
+Truncated Precision:
+    Exact:        0.4133
+
+----------------------------------------
+METHOD ntc.btc
+
+
+Average precision for all points
+   11-pt Avg:     0.5210 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5317 
+Recall:
+    Exact:        0.5935
+Precision:
+    Exact:        0.4289
+Truncated Precision:
+    Exact:        0.4289
+
+----------------------------------------
+METHOD ntc.ann
+
+
+Average precision for all points
+   11-pt Avg:     0.5107 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5223 
+Recall:
+    Exact:        0.5658
+Precision:
+    Exact:        0.4156
+Truncated Precision:
+    Exact:        0.4156
+
+----------------------------------------
+METHOD ntc.atn
+
+
+Average precision for all points
+   11-pt Avg:     0.5223 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5320 
+Recall:
+    Exact:        0.5908
+Precision:
+    Exact:        0.4289
+Truncated Precision:
+    Exact:        0.4289
+
+----------------------------------------
+METHOD ntc.anc
+
+
+Average precision for all points
+   11-pt Avg:     0.5107 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5223 
+Recall:
+    Exact:        0.5658
+Precision:
+    Exact:        0.4156
+Truncated Precision:
+    Exact:        0.4156
+
+----------------------------------------
+METHOD ntc.atc
+
+
+Average precision for all points
+   11-pt Avg:     0.5223 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5320 
+Recall:
+    Exact:        0.5908
+Precision:
+    Exact:        0.4289
+Truncated Precision:
+    Exact:        0.4289
+
+----------------------------------------
+METHOD ntc.lnn
+
+
+Average precision for all points
+   11-pt Avg:     0.5070 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5191 
+Recall:
+    Exact:        0.5570
+Precision:
+    Exact:        0.4089
+Truncated Precision:
+    Exact:        0.4089
+
+----------------------------------------
+METHOD ntc.ltn
+
+
+Average precision for all points
+   11-pt Avg:     0.5192 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5287 
+Recall:
+    Exact:        0.5909
+Precision:
+    Exact:        0.4256
+Truncated Precision:
+    Exact:        0.4256
+
+----------------------------------------
+METHOD ntc.lnc
+
+
+Average precision for all points
+   11-pt Avg:     0.5070 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5191 
+Recall:
+    Exact:        0.5570
+Precision:
+    Exact:        0.4089
+Truncated Precision:
+    Exact:        0.4089
+
+----------------------------------------
+METHOD ntc.ltc
+
+
+Average precision for all points
+   11-pt Avg:     0.5192 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5287 
+Recall:
+    Exact:        0.5909
+Precision:
+    Exact:        0.4256
+Truncated Precision:
+    Exact:        0.4256
+
+----------------------------------------
+METHOD bnn.nnn
+
+
+Average precision for all points
+   11-pt Avg:     0.4792 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4832 
+Recall:
+    Exact:        0.5367
+Precision:
+    Exact:        0.3856
+Truncated Precision:
+    Exact:        0.3856
+
+----------------------------------------
+METHOD bnn.ntn
+
+
+Average precision for all points
+   11-pt Avg:     0.5076 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5133 
+Recall:
+    Exact:        0.5574
+Precision:
+    Exact:        0.4011
+Truncated Precision:
+    Exact:        0.4011
+
+----------------------------------------
+METHOD bnn.nnc
+
+
+Average precision for all points
+   11-pt Avg:     0.4798 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4833 
+Recall:
+    Exact:        0.5385
+Precision:
+    Exact:        0.3867
+Truncated Precision:
+    Exact:        0.3867
+
+----------------------------------------
+METHOD bnn.ntc
+
+
+Average precision for all points
+   11-pt Avg:     0.5076 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5133 
+Recall:
+    Exact:        0.5574
+Precision:
+    Exact:        0.4011
+Truncated Precision:
+    Exact:        0.4011
+
+----------------------------------------
+METHOD bnn.bnn
+
+
+Average precision for all points
+   11-pt Avg:     0.4841 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4906 
+Recall:
+    Exact:        0.5394
+Precision:
+    Exact:        0.3900
+Truncated Precision:
+    Exact:        0.3900
+
+----------------------------------------
+METHOD bnn.btn
+
+
+Average precision for all points
+   11-pt Avg:     0.5142 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5191 
+Recall:
+    Exact:        0.5600
+Precision:
+    Exact:        0.4067
+Truncated Precision:
+    Exact:        0.4067
+
+----------------------------------------
+METHOD bnn.bnc
+
+
+Average precision for all points
+   11-pt Avg:     0.4846 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4906 
+Recall:
+    Exact:        0.5413
+Precision:
+    Exact:        0.3911
+Truncated Precision:
+    Exact:        0.3911
+
+----------------------------------------
+METHOD bnn.btc
+
+
+Average precision for all points
+   11-pt Avg:     0.5142 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5191 
+Recall:
+    Exact:        0.5600
+Precision:
+    Exact:        0.4067
+Truncated Precision:
+    Exact:        0.4067
+
+----------------------------------------
+METHOD bnn.ann
+
+
+Average precision for all points
+   11-pt Avg:     0.4804 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4841 
+Recall:
+    Exact:        0.5373
+Precision:
+    Exact:        0.3889
+Truncated Precision:
+    Exact:        0.3889
+
+----------------------------------------
+METHOD bnn.atn
+
+
+Average precision for all points
+   11-pt Avg:     0.5147 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5199 
+Recall:
+    Exact:        0.5628
+Precision:
+    Exact:        0.4100
+Truncated Precision:
+    Exact:        0.4100
+
+----------------------------------------
+METHOD bnn.anc
+
+
+Average precision for all points
+   11-pt Avg:     0.4809 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4838 
+Recall:
+    Exact:        0.5392
+Precision:
+    Exact:        0.3900
+Truncated Precision:
+    Exact:        0.3900
+
+----------------------------------------
+METHOD bnn.atc
+
+
+Average precision for all points
+   11-pt Avg:     0.5147 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5199 
+Recall:
+    Exact:        0.5628
+Precision:
+    Exact:        0.4100
+Truncated Precision:
+    Exact:        0.4100
+
+----------------------------------------
+METHOD bnn.lnn
+
+
+Average precision for all points
+   11-pt Avg:     0.4824 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4880 
+Recall:
+    Exact:        0.5406
+Precision:
+    Exact:        0.3911
+Truncated Precision:
+    Exact:        0.3911
+
+----------------------------------------
+METHOD bnn.ltn
+
+
+Average precision for all points
+   11-pt Avg:     0.5131 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5160 
+Recall:
+    Exact:        0.5600
+Precision:
+    Exact:        0.4067
+Truncated Precision:
+    Exact:        0.4067
+
+----------------------------------------
+METHOD bnn.lnc
+
+
+Average precision for all points
+   11-pt Avg:     0.4829 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4880 
+Recall:
+    Exact:        0.5424
+Precision:
+    Exact:        0.3922
+Truncated Precision:
+    Exact:        0.3922
+
+----------------------------------------
+METHOD bnn.ltc
+
+
+Average precision for all points
+   11-pt Avg:     0.5131 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5160 
+Recall:
+    Exact:        0.5600
+Precision:
+    Exact:        0.4067
+Truncated Precision:
+    Exact:        0.4067
+
+----------------------------------------
+METHOD btn.nnn
+
+
+Average precision for all points
+   11-pt Avg:     0.5076 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5133 
+Recall:
+    Exact:        0.5574
+Precision:
+    Exact:        0.4011
+Truncated Precision:
+    Exact:        0.4011
+
+----------------------------------------
+METHOD btn.ntn
+
+
+Average precision for all points
+   11-pt Avg:     0.5080 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5090 
+Recall:
+    Exact:        0.5750
+Precision:
+    Exact:        0.4089
+Truncated Precision:
+    Exact:        0.4089
+
+----------------------------------------
+METHOD btn.nnc
+
+
+Average precision for all points
+   11-pt Avg:     0.5076 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5133 
+Recall:
+    Exact:        0.5574
+Precision:
+    Exact:        0.4011
+Truncated Precision:
+    Exact:        0.4011
+
+----------------------------------------
+METHOD btn.ntc
+
+
+Average precision for all points
+   11-pt Avg:     0.5080 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5090 
+Recall:
+    Exact:        0.5750
+Precision:
+    Exact:        0.4089
+Truncated Precision:
+    Exact:        0.4089
+
+----------------------------------------
+METHOD btn.bnn
+
+
+Average precision for all points
+   11-pt Avg:     0.5142 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5191 
+Recall:
+    Exact:        0.5600
+Precision:
+    Exact:        0.4067
+Truncated Precision:
+    Exact:        0.4067
+
+----------------------------------------
+METHOD btn.btn
+
+
+Average precision for all points
+   11-pt Avg:     0.5142 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5126 
+Recall:
+    Exact:        0.5811
+Precision:
+    Exact:        0.4189
+Truncated Precision:
+    Exact:        0.4189
+
+----------------------------------------
+METHOD btn.bnc
+
+
+Average precision for all points
+   11-pt Avg:     0.5142 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5191 
+Recall:
+    Exact:        0.5600
+Precision:
+    Exact:        0.4067
+Truncated Precision:
+    Exact:        0.4067
+
+----------------------------------------
+METHOD btn.btc
+
+
+Average precision for all points
+   11-pt Avg:     0.5142 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5126 
+Recall:
+    Exact:        0.5811
+Precision:
+    Exact:        0.4189
+Truncated Precision:
+    Exact:        0.4189
+
+----------------------------------------
+METHOD btn.ann
+
+
+Average precision for all points
+   11-pt Avg:     0.5147 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5199 
+Recall:
+    Exact:        0.5628
+Precision:
+    Exact:        0.4100
+Truncated Precision:
+    Exact:        0.4100
+
+----------------------------------------
+METHOD btn.atn
+
+
+Average precision for all points
+   11-pt Avg:     0.5169 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5111 
+Recall:
+    Exact:        0.5809
+Precision:
+    Exact:        0.4189
+Truncated Precision:
+    Exact:        0.4189
+
+----------------------------------------
+METHOD btn.anc
+
+
+Average precision for all points
+   11-pt Avg:     0.5147 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5199 
+Recall:
+    Exact:        0.5628
+Precision:
+    Exact:        0.4100
+Truncated Precision:
+    Exact:        0.4100
+
+----------------------------------------
+METHOD btn.atc
+
+
+Average precision for all points
+   11-pt Avg:     0.5169 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5111 
+Recall:
+    Exact:        0.5809
+Precision:
+    Exact:        0.4189
+Truncated Precision:
+    Exact:        0.4189
+
+----------------------------------------
+METHOD btn.lnn
+
+
+Average precision for all points
+   11-pt Avg:     0.5131 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5160 
+Recall:
+    Exact:        0.5600
+Precision:
+    Exact:        0.4067
+Truncated Precision:
+    Exact:        0.4067
+
+----------------------------------------
+METHOD btn.ltn
+
+
+Average precision for all points
+   11-pt Avg:     0.5131 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5135 
+Recall:
+    Exact:        0.5767
+Precision:
+    Exact:        0.4133
+Truncated Precision:
+    Exact:        0.4133
+
+----------------------------------------
+METHOD btn.lnc
+
+
+Average precision for all points
+   11-pt Avg:     0.5131 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5160 
+Recall:
+    Exact:        0.5600
+Precision:
+    Exact:        0.4067
+Truncated Precision:
+    Exact:        0.4067
+
+----------------------------------------
+METHOD btn.ltc
+
+
+Average precision for all points
+   11-pt Avg:     0.5131 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5135 
+Recall:
+    Exact:        0.5767
+Precision:
+    Exact:        0.4133
+Truncated Precision:
+    Exact:        0.4133
+
+----------------------------------------
+METHOD bnc.nnn
+
+
+Average precision for all points
+   11-pt Avg:     0.5010 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5093 
+Recall:
+    Exact:        0.5531
+Precision:
+    Exact:        0.3989
+Truncated Precision:
+    Exact:        0.3989
+
+----------------------------------------
+METHOD bnc.ntn
+
+
+Average precision for all points
+   11-pt Avg:     0.5264 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5257 
+Recall:
+    Exact:        0.5783
+Precision:
+    Exact:        0.4167
+Truncated Precision:
+    Exact:        0.4167
+
+----------------------------------------
+METHOD bnc.nnc
+
+
+Average precision for all points
+   11-pt Avg:     0.5010 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5093 
+Recall:
+    Exact:        0.5531
+Precision:
+    Exact:        0.3989
+Truncated Precision:
+    Exact:        0.3989
+
+----------------------------------------
+METHOD bnc.ntc
+
+
+Average precision for all points
+   11-pt Avg:     0.5264 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5257 
+Recall:
+    Exact:        0.5783
+Precision:
+    Exact:        0.4167
+Truncated Precision:
+    Exact:        0.4167
+
+----------------------------------------
+METHOD bnc.bnn
+
+
+Average precision for all points
+   11-pt Avg:     0.5057 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5119 
+Recall:
+    Exact:        0.5554
+Precision:
+    Exact:        0.4056
+Truncated Precision:
+    Exact:        0.4056
+
+----------------------------------------
+METHOD bnc.btn
+
+
+Average precision for all points
+   11-pt Avg:     0.5335 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5316 
+Recall:
+    Exact:        0.5877
+Precision:
+    Exact:        0.4267
+Truncated Precision:
+    Exact:        0.4267
+
+----------------------------------------
+METHOD bnc.bnc
+
+
+Average precision for all points
+   11-pt Avg:     0.5057 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5119 
+Recall:
+    Exact:        0.5554
+Precision:
+    Exact:        0.4056
+Truncated Precision:
+    Exact:        0.4056
+
+----------------------------------------
+METHOD bnc.btc
+
+
+Average precision for all points
+   11-pt Avg:     0.5335 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5316 
+Recall:
+    Exact:        0.5877
+Precision:
+    Exact:        0.4267
+Truncated Precision:
+    Exact:        0.4267
+
+----------------------------------------
+METHOD bnc.ann
+
+
+Average precision for all points
+   11-pt Avg:     0.5056 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5110 
+Recall:
+    Exact:        0.5615
+Precision:
+    Exact:        0.4100
+Truncated Precision:
+    Exact:        0.4100
+
+----------------------------------------
+METHOD bnc.atn
+
+
+Average precision for all points
+   11-pt Avg:     0.5345 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5340 
+Recall:
+    Exact:        0.5851
+Precision:
+    Exact:        0.4278
+Truncated Precision:
+    Exact:        0.4278
+
+----------------------------------------
+METHOD bnc.anc
+
+
+Average precision for all points
+   11-pt Avg:     0.5056 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5110 
+Recall:
+    Exact:        0.5615
+Precision:
+    Exact:        0.4100
+Truncated Precision:
+    Exact:        0.4100
+
+----------------------------------------
+METHOD bnc.atc
+
+
+Average precision for all points
+   11-pt Avg:     0.5345 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5340 
+Recall:
+    Exact:        0.5851
+Precision:
+    Exact:        0.4278
+Truncated Precision:
+    Exact:        0.4278
+
+----------------------------------------
+METHOD bnc.lnn
+
+
+Average precision for all points
+   11-pt Avg:     0.5047 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5148 
+Recall:
+    Exact:        0.5606
+Precision:
+    Exact:        0.4067
+Truncated Precision:
+    Exact:        0.4067
+
+----------------------------------------
+METHOD bnc.ltn
+
+
+Average precision for all points
+   11-pt Avg:     0.5304 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5266 
+Recall:
+    Exact:        0.5814
+Precision:
+    Exact:        0.4211
+Truncated Precision:
+    Exact:        0.4211
+
+----------------------------------------
+METHOD bnc.lnc
+
+
+Average precision for all points
+   11-pt Avg:     0.5047 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5148 
+Recall:
+    Exact:        0.5606
+Precision:
+    Exact:        0.4067
+Truncated Precision:
+    Exact:        0.4067
+
+----------------------------------------
+METHOD bnc.ltc
+
+
+Average precision for all points
+   11-pt Avg:     0.5304 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5266 
+Recall:
+    Exact:        0.5814
+Precision:
+    Exact:        0.4211
+Truncated Precision:
+    Exact:        0.4211
+
+----------------------------------------
+METHOD btc.nnn
+
+
+Average precision for all points
+   11-pt Avg:     0.5162 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5168 
+Recall:
+    Exact:        0.5659
+Precision:
+    Exact:        0.4067
+Truncated Precision:
+    Exact:        0.4067
+
+----------------------------------------
+METHOD btc.ntn
+
+
+Average precision for all points
+   11-pt Avg:     0.5148 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5239 
+Recall:
+    Exact:        0.5805
+Precision:
+    Exact:        0.4156
+Truncated Precision:
+    Exact:        0.4156
+
+----------------------------------------
+METHOD btc.nnc
+
+
+Average precision for all points
+   11-pt Avg:     0.5162 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5168 
+Recall:
+    Exact:        0.5659
+Precision:
+    Exact:        0.4067
+Truncated Precision:
+    Exact:        0.4067
+
+----------------------------------------
+METHOD btc.ntc
+
+
+Average precision for all points
+   11-pt Avg:     0.5148 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5239 
+Recall:
+    Exact:        0.5805
+Precision:
+    Exact:        0.4156
+Truncated Precision:
+    Exact:        0.4156
+
+----------------------------------------
+METHOD btc.bnn
+
+
+Average precision for all points
+   11-pt Avg:     0.5241 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5272 
+Recall:
+    Exact:        0.5742
+Precision:
+    Exact:        0.4178
+Truncated Precision:
+    Exact:        0.4178
+
+----------------------------------------
+METHOD btc.btn
+
+
+Average precision for all points
+   11-pt Avg:     0.5219 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5287 
+Recall:
+    Exact:        0.5953
+Precision:
+    Exact:        0.4311
+Truncated Precision:
+    Exact:        0.4311
+
+----------------------------------------
+METHOD btc.bnc
+
+
+Average precision for all points
+   11-pt Avg:     0.5241 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5272 
+Recall:
+    Exact:        0.5742
+Precision:
+    Exact:        0.4178
+Truncated Precision:
+    Exact:        0.4178
+
+----------------------------------------
+METHOD btc.btc
+
+
+Average precision for all points
+   11-pt Avg:     0.5219 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5287 
+Recall:
+    Exact:        0.5953
+Precision:
+    Exact:        0.4311
+Truncated Precision:
+    Exact:        0.4311
+
+----------------------------------------
+METHOD btc.ann
+
+
+Average precision for all points
+   11-pt Avg:     0.5261 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5288 
+Recall:
+    Exact:        0.5760
+Precision:
+    Exact:        0.4189
+Truncated Precision:
+    Exact:        0.4189
+
+----------------------------------------
+METHOD btc.atn
+
+
+Average precision for all points
+   11-pt Avg:     0.5261 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5331 
+Recall:
+    Exact:        0.5995
+Precision:
+    Exact:        0.4356
+Truncated Precision:
+    Exact:        0.4356
+
+----------------------------------------
+METHOD btc.anc
+
+
+Average precision for all points
+   11-pt Avg:     0.5261 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5288 
+Recall:
+    Exact:        0.5760
+Precision:
+    Exact:        0.4189
+Truncated Precision:
+    Exact:        0.4189
+
+----------------------------------------
+METHOD btc.atc
+
+
+Average precision for all points
+   11-pt Avg:     0.5261 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5331 
+Recall:
+    Exact:        0.5995
+Precision:
+    Exact:        0.4356
+Truncated Precision:
+    Exact:        0.4356
+
+----------------------------------------
+METHOD btc.lnn
+
+
+Average precision for all points
+   11-pt Avg:     0.5215 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5238 
+Recall:
+    Exact:        0.5725
+Precision:
+    Exact:        0.4133
+Truncated Precision:
+    Exact:        0.4133
+
+----------------------------------------
+METHOD btc.ltn
+
+
+Average precision for all points
+   11-pt Avg:     0.5202 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5272 
+Recall:
+    Exact:        0.5934
+Precision:
+    Exact:        0.4278
+Truncated Precision:
+    Exact:        0.4278
+
+----------------------------------------
+METHOD btc.lnc
+
+
+Average precision for all points
+   11-pt Avg:     0.5215 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5238 
+Recall:
+    Exact:        0.5725
+Precision:
+    Exact:        0.4133
+Truncated Precision:
+    Exact:        0.4133
+
+----------------------------------------
+METHOD btc.ltc
+
+
+Average precision for all points
+   11-pt Avg:     0.5202 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5272 
+Recall:
+    Exact:        0.5934
+Precision:
+    Exact:        0.4278
+Truncated Precision:
+    Exact:        0.4278
+
+----------------------------------------
+METHOD ann.nnn
+
+
+Average precision for all points
+   11-pt Avg:     0.4886 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4950 
+Recall:
+    Exact:        0.5447
+Precision:
+    Exact:        0.3922
+Truncated Precision:
+    Exact:        0.3922
+
+----------------------------------------
+METHOD ann.ntn
+
+
+Average precision for all points
+   11-pt Avg:     0.5095 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5105 
+Recall:
+    Exact:        0.5681
+Precision:
+    Exact:        0.4078
+Truncated Precision:
+    Exact:        0.4078
+
+----------------------------------------
+METHOD ann.nnc
+
+
+Average precision for all points
+   11-pt Avg:     0.4881 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4950 
+Recall:
+    Exact:        0.5447
+Precision:
+    Exact:        0.3922
+Truncated Precision:
+    Exact:        0.3922
+
+----------------------------------------
+METHOD ann.ntc
+
+
+Average precision for all points
+   11-pt Avg:     0.5095 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5105 
+Recall:
+    Exact:        0.5681
+Precision:
+    Exact:        0.4078
+Truncated Precision:
+    Exact:        0.4078
+
+----------------------------------------
+METHOD ann.bnn
+
+
+Average precision for all points
+   11-pt Avg:     0.4917 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4983 
+Recall:
+    Exact:        0.5481
+Precision:
+    Exact:        0.3989
+Truncated Precision:
+    Exact:        0.3989
+
+----------------------------------------
+METHOD ann.btn
+
+
+Average precision for all points
+   11-pt Avg:     0.5180 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5186 
+Recall:
+    Exact:        0.5721
+Precision:
+    Exact:        0.4156
+Truncated Precision:
+    Exact:        0.4156
+
+----------------------------------------
+METHOD ann.bnc
+
+
+Average precision for all points
+   11-pt Avg:     0.4917 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4983 
+Recall:
+    Exact:        0.5481
+Precision:
+    Exact:        0.3989
+Truncated Precision:
+    Exact:        0.3989
+
+----------------------------------------
+METHOD ann.btc
+
+
+Average precision for all points
+   11-pt Avg:     0.5180 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5186 
+Recall:
+    Exact:        0.5721
+Precision:
+    Exact:        0.4156
+Truncated Precision:
+    Exact:        0.4156
+
+----------------------------------------
+METHOD ann.ann
+
+
+Average precision for all points
+   11-pt Avg:     0.4940 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4998 
+Recall:
+    Exact:        0.5428
+Precision:
+    Exact:        0.3967
+Truncated Precision:
+    Exact:        0.3967
+
+----------------------------------------
+METHOD ann.atn
+
+
+Average precision for all points
+   11-pt Avg:     0.5181 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5183 
+Recall:
+    Exact:        0.5730
+Precision:
+    Exact:        0.4167
+Truncated Precision:
+    Exact:        0.4167
+
+----------------------------------------
+METHOD ann.anc
+
+
+Average precision for all points
+   11-pt Avg:     0.4940 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4998 
+Recall:
+    Exact:        0.5428
+Precision:
+    Exact:        0.3967
+Truncated Precision:
+    Exact:        0.3967
+
+----------------------------------------
+METHOD ann.atc
+
+
+Average precision for all points
+   11-pt Avg:     0.5181 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5183 
+Recall:
+    Exact:        0.5730
+Precision:
+    Exact:        0.4167
+Truncated Precision:
+    Exact:        0.4167
+
+----------------------------------------
+METHOD ann.lnn
+
+
+Average precision for all points
+   11-pt Avg:     0.4906 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5002 
+Recall:
+    Exact:        0.5443
+Precision:
+    Exact:        0.3944
+Truncated Precision:
+    Exact:        0.3944
+
+----------------------------------------
+METHOD ann.ltn
+
+
+Average precision for all points
+   11-pt Avg:     0.5142 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5158 
+Recall:
+    Exact:        0.5744
+Precision:
+    Exact:        0.4167
+Truncated Precision:
+    Exact:        0.4167
+
+----------------------------------------
+METHOD ann.lnc
+
+
+Average precision for all points
+   11-pt Avg:     0.4906 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5002 
+Recall:
+    Exact:        0.5443
+Precision:
+    Exact:        0.3944
+Truncated Precision:
+    Exact:        0.3944
+
+----------------------------------------
+METHOD ann.ltc
+
+
+Average precision for all points
+   11-pt Avg:     0.5142 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5158 
+Recall:
+    Exact:        0.5744
+Precision:
+    Exact:        0.4167
+Truncated Precision:
+    Exact:        0.4167
+
+----------------------------------------
+METHOD atn.nnn
+
+
+Average precision for all points
+   11-pt Avg:     0.5095 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5105 
+Recall:
+    Exact:        0.5681
+Precision:
+    Exact:        0.4078
+Truncated Precision:
+    Exact:        0.4078
+
+----------------------------------------
+METHOD atn.ntn
+
+
+Average precision for all points
+   11-pt Avg:     0.5059 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5130 
+Recall:
+    Exact:        0.5905
+Precision:
+    Exact:        0.4222
+Truncated Precision:
+    Exact:        0.4222
+
+----------------------------------------
+METHOD atn.nnc
+
+
+Average precision for all points
+   11-pt Avg:     0.5095 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5105 
+Recall:
+    Exact:        0.5681
+Precision:
+    Exact:        0.4078
+Truncated Precision:
+    Exact:        0.4078
+
+----------------------------------------
+METHOD atn.ntc
+
+
+Average precision for all points
+   11-pt Avg:     0.5059 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5130 
+Recall:
+    Exact:        0.5905
+Precision:
+    Exact:        0.4222
+Truncated Precision:
+    Exact:        0.4222
+
+----------------------------------------
+METHOD atn.bnn
+
+
+Average precision for all points
+   11-pt Avg:     0.5180 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5186 
+Recall:
+    Exact:        0.5721
+Precision:
+    Exact:        0.4156
+Truncated Precision:
+    Exact:        0.4156
+
+----------------------------------------
+METHOD atn.btn
+
+
+Average precision for all points
+   11-pt Avg:     0.5127 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5178 
+Recall:
+    Exact:        0.5895
+Precision:
+    Exact:        0.4233
+Truncated Precision:
+    Exact:        0.4233
+
+----------------------------------------
+METHOD atn.bnc
+
+
+Average precision for all points
+   11-pt Avg:     0.5180 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5186 
+Recall:
+    Exact:        0.5721
+Precision:
+    Exact:        0.4156
+Truncated Precision:
+    Exact:        0.4156
+
+----------------------------------------
+METHOD atn.btc
+
+
+Average precision for all points
+   11-pt Avg:     0.5127 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5178 
+Recall:
+    Exact:        0.5895
+Precision:
+    Exact:        0.4233
+Truncated Precision:
+    Exact:        0.4233
+
+----------------------------------------
+METHOD atn.ann
+
+
+Average precision for all points
+   11-pt Avg:     0.5181 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5183 
+Recall:
+    Exact:        0.5730
+Precision:
+    Exact:        0.4167
+Truncated Precision:
+    Exact:        0.4167
+
+----------------------------------------
+METHOD atn.atn
+
+
+Average precision for all points
+   11-pt Avg:     0.5122 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5172 
+Recall:
+    Exact:        0.5919
+Precision:
+    Exact:        0.4256
+Truncated Precision:
+    Exact:        0.4256
+
+----------------------------------------
+METHOD atn.anc
+
+
+Average precision for all points
+   11-pt Avg:     0.5181 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5183 
+Recall:
+    Exact:        0.5730
+Precision:
+    Exact:        0.4167
+Truncated Precision:
+    Exact:        0.4167
+
+----------------------------------------
+METHOD atn.atc
+
+
+Average precision for all points
+   11-pt Avg:     0.5122 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5172 
+Recall:
+    Exact:        0.5919
+Precision:
+    Exact:        0.4256
+Truncated Precision:
+    Exact:        0.4256
+
+----------------------------------------
+METHOD atn.lnn
+
+
+Average precision for all points
+   11-pt Avg:     0.5142 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5158 
+Recall:
+    Exact:        0.5744
+Precision:
+    Exact:        0.4167
+Truncated Precision:
+    Exact:        0.4167
+
+----------------------------------------
+METHOD atn.ltn
+
+
+Average precision for all points
+   11-pt Avg:     0.5113 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5167 
+Recall:
+    Exact:        0.5917
+Precision:
+    Exact:        0.4256
+Truncated Precision:
+    Exact:        0.4256
+
+----------------------------------------
+METHOD atn.lnc
+
+
+Average precision for all points
+   11-pt Avg:     0.5142 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5158 
+Recall:
+    Exact:        0.5744
+Precision:
+    Exact:        0.4167
+Truncated Precision:
+    Exact:        0.4167
+
+----------------------------------------
+METHOD atn.ltc
+
+
+Average precision for all points
+   11-pt Avg:     0.5113 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5167 
+Recall:
+    Exact:        0.5917
+Precision:
+    Exact:        0.4256
+Truncated Precision:
+    Exact:        0.4256
+
+----------------------------------------
+METHOD anc.nnn
+
+
+Average precision for all points
+   11-pt Avg:     0.4916 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4984 
+Recall:
+    Exact:        0.5402
+Precision:
+    Exact:        0.3911
+Truncated Precision:
+    Exact:        0.3911
+
+----------------------------------------
+METHOD anc.ntn
+
+
+Average precision for all points
+   11-pt Avg:     0.5169 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5203 
+Recall:
+    Exact:        0.5698
+Precision:
+    Exact:        0.4100
+Truncated Precision:
+    Exact:        0.4100
+
+----------------------------------------
+METHOD anc.nnc
+
+
+Average precision for all points
+   11-pt Avg:     0.4916 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4984 
+Recall:
+    Exact:        0.5402
+Precision:
+    Exact:        0.3911
+Truncated Precision:
+    Exact:        0.3911
+
+----------------------------------------
+METHOD anc.ntc
+
+
+Average precision for all points
+   11-pt Avg:     0.5169 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5203 
+Recall:
+    Exact:        0.5698
+Precision:
+    Exact:        0.4100
+Truncated Precision:
+    Exact:        0.4100
+
+----------------------------------------
+METHOD anc.bnn
+
+
+Average precision for all points
+   11-pt Avg:     0.4964 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5032 
+Recall:
+    Exact:        0.5445
+Precision:
+    Exact:        0.3956
+Truncated Precision:
+    Exact:        0.3956
+
+----------------------------------------
+METHOD anc.btn
+
+
+Average precision for all points
+   11-pt Avg:     0.5260 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5281 
+Recall:
+    Exact:        0.5780
+Precision:
+    Exact:        0.4200
+Truncated Precision:
+    Exact:        0.4200
+
+----------------------------------------
+METHOD anc.bnc
+
+
+Average precision for all points
+   11-pt Avg:     0.4964 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5032 
+Recall:
+    Exact:        0.5445
+Precision:
+    Exact:        0.3956
+Truncated Precision:
+    Exact:        0.3956
+
+----------------------------------------
+METHOD anc.btc
+
+
+Average precision for all points
+   11-pt Avg:     0.5260 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5281 
+Recall:
+    Exact:        0.5780
+Precision:
+    Exact:        0.4200
+Truncated Precision:
+    Exact:        0.4200
+
+----------------------------------------
+METHOD anc.ann
+
+
+Average precision for all points
+   11-pt Avg:     0.4974 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5003 
+Recall:
+    Exact:        0.5471
+Precision:
+    Exact:        0.3989
+Truncated Precision:
+    Exact:        0.3989
+
+----------------------------------------
+METHOD anc.atn
+
+
+Average precision for all points
+   11-pt Avg:     0.5255 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5282 
+Recall:
+    Exact:        0.5792
+Precision:
+    Exact:        0.4222
+Truncated Precision:
+    Exact:        0.4222
+
+----------------------------------------
+METHOD anc.anc
+
+
+Average precision for all points
+   11-pt Avg:     0.4974 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5003 
+Recall:
+    Exact:        0.5471
+Precision:
+    Exact:        0.3989
+Truncated Precision:
+    Exact:        0.3989
+
+----------------------------------------
+METHOD anc.atc
+
+
+Average precision for all points
+   11-pt Avg:     0.5255 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5282 
+Recall:
+    Exact:        0.5792
+Precision:
+    Exact:        0.4222
+Truncated Precision:
+    Exact:        0.4222
+
+----------------------------------------
+METHOD anc.lnn
+
+
+Average precision for all points
+   11-pt Avg:     0.4952 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5032 
+Recall:
+    Exact:        0.5389
+Precision:
+    Exact:        0.3911
+Truncated Precision:
+    Exact:        0.3911
+
+----------------------------------------
+METHOD anc.ltn
+
+
+Average precision for all points
+   11-pt Avg:     0.5221 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5266 
+Recall:
+    Exact:        0.5767
+Precision:
+    Exact:        0.4167
+Truncated Precision:
+    Exact:        0.4167
+
+----------------------------------------
+METHOD anc.lnc
+
+
+Average precision for all points
+   11-pt Avg:     0.4952 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5032 
+Recall:
+    Exact:        0.5389
+Precision:
+    Exact:        0.3911
+Truncated Precision:
+    Exact:        0.3911
+
+----------------------------------------
+METHOD anc.ltc
+
+
+Average precision for all points
+   11-pt Avg:     0.5221 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5266 
+Recall:
+    Exact:        0.5767
+Precision:
+    Exact:        0.4167
+Truncated Precision:
+    Exact:        0.4167
+
+----------------------------------------
+METHOD atc.nnn
+
+
+Average precision for all points
+   11-pt Avg:     0.5059 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5122 
+Recall:
+    Exact:        0.5666
+Precision:
+    Exact:        0.4078
+Truncated Precision:
+    Exact:        0.4078
+
+----------------------------------------
+METHOD atc.ntn
+
+
+Average precision for all points
+   11-pt Avg:     0.5038 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5153 
+Recall:
+    Exact:        0.5827
+Precision:
+    Exact:        0.4167
+Truncated Precision:
+    Exact:        0.4167
+
+----------------------------------------
+METHOD atc.nnc
+
+
+Average precision for all points
+   11-pt Avg:     0.5059 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5122 
+Recall:
+    Exact:        0.5666
+Precision:
+    Exact:        0.4078
+Truncated Precision:
+    Exact:        0.4078
+
+----------------------------------------
+METHOD atc.ntc
+
+
+Average precision for all points
+   11-pt Avg:     0.5038 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5153 
+Recall:
+    Exact:        0.5827
+Precision:
+    Exact:        0.4167
+Truncated Precision:
+    Exact:        0.4167
+
+----------------------------------------
+METHOD atc.bnn
+
+
+Average precision for all points
+   11-pt Avg:     0.5140 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5195 
+Recall:
+    Exact:        0.5704
+Precision:
+    Exact:        0.4144
+Truncated Precision:
+    Exact:        0.4144
+
+----------------------------------------
+METHOD atc.btn
+
+
+Average precision for all points
+   11-pt Avg:     0.5098 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5183 
+Recall:
+    Exact:        0.5922
+Precision:
+    Exact:        0.4278
+Truncated Precision:
+    Exact:        0.4278
+
+----------------------------------------
+METHOD atc.bnc
+
+
+Average precision for all points
+   11-pt Avg:     0.5140 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5195 
+Recall:
+    Exact:        0.5704
+Precision:
+    Exact:        0.4144
+Truncated Precision:
+    Exact:        0.4144
+
+----------------------------------------
+METHOD atc.btc
+
+
+Average precision for all points
+   11-pt Avg:     0.5098 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5183 
+Recall:
+    Exact:        0.5922
+Precision:
+    Exact:        0.4278
+Truncated Precision:
+    Exact:        0.4278
+
+----------------------------------------
+METHOD atc.ann
+
+
+Average precision for all points
+   11-pt Avg:     0.5155 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5200 
+Recall:
+    Exact:        0.5717
+Precision:
+    Exact:        0.4167
+Truncated Precision:
+    Exact:        0.4167
+
+----------------------------------------
+METHOD atc.atn
+
+
+Average precision for all points
+   11-pt Avg:     0.5124 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5206 
+Recall:
+    Exact:        0.5961
+Precision:
+    Exact:        0.4322
+Truncated Precision:
+    Exact:        0.4322
+
+----------------------------------------
+METHOD atc.anc
+
+
+Average precision for all points
+   11-pt Avg:     0.5155 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5200 
+Recall:
+    Exact:        0.5717
+Precision:
+    Exact:        0.4167
+Truncated Precision:
+    Exact:        0.4167
+
+----------------------------------------
+METHOD atc.atc
+
+
+Average precision for all points
+   11-pt Avg:     0.5124 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5206 
+Recall:
+    Exact:        0.5961
+Precision:
+    Exact:        0.4322
+Truncated Precision:
+    Exact:        0.4322
+
+----------------------------------------
+METHOD atc.lnn
+
+
+Average precision for all points
+   11-pt Avg:     0.5129 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5187 
+Recall:
+    Exact:        0.5666
+Precision:
+    Exact:        0.4100
+Truncated Precision:
+    Exact:        0.4100
+
+----------------------------------------
+METHOD atc.ltn
+
+
+Average precision for all points
+   11-pt Avg:     0.5076 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5171 
+Recall:
+    Exact:        0.5905
+Precision:
+    Exact:        0.4256
+Truncated Precision:
+    Exact:        0.4256
+
+----------------------------------------
+METHOD atc.lnc
+
+
+Average precision for all points
+   11-pt Avg:     0.5129 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5187 
+Recall:
+    Exact:        0.5666
+Precision:
+    Exact:        0.4100
+Truncated Precision:
+    Exact:        0.4100
+
+----------------------------------------
+METHOD atc.ltc
+
+
+Average precision for all points
+   11-pt Avg:     0.5076 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5171 
+Recall:
+    Exact:        0.5905
+Precision:
+    Exact:        0.4256
+Truncated Precision:
+    Exact:        0.4256
+
+----------------------------------------
+METHOD lnn.nnn
+
+
+Average precision for all points
+   11-pt Avg:     0.4740 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4799 
+Recall:
+    Exact:        0.5374
+Precision:
+    Exact:        0.3867
+Truncated Precision:
+    Exact:        0.3867
+
+----------------------------------------
+METHOD lnn.ntn
+
+
+Average precision for all points
+   11-pt Avg:     0.5007 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5069 
+Recall:
+    Exact:        0.5538
+Precision:
+    Exact:        0.3967
+Truncated Precision:
+    Exact:        0.3967
+
+----------------------------------------
+METHOD lnn.nnc
+
+
+Average precision for all points
+   11-pt Avg:     0.4747 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4799 
+Recall:
+    Exact:        0.5374
+Precision:
+    Exact:        0.3867
+Truncated Precision:
+    Exact:        0.3867
+
+----------------------------------------
+METHOD lnn.ntc
+
+
+Average precision for all points
+   11-pt Avg:     0.5007 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5069 
+Recall:
+    Exact:        0.5538
+Precision:
+    Exact:        0.3967
+Truncated Precision:
+    Exact:        0.3967
+
+----------------------------------------
+METHOD lnn.bnn
+
+
+Average precision for all points
+   11-pt Avg:     0.4769 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4815 
+Recall:
+    Exact:        0.5430
+Precision:
+    Exact:        0.3933
+Truncated Precision:
+    Exact:        0.3933
+
+----------------------------------------
+METHOD lnn.btn
+
+
+Average precision for all points
+   11-pt Avg:     0.5076 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5149 
+Recall:
+    Exact:        0.5642
+Precision:
+    Exact:        0.4078
+Truncated Precision:
+    Exact:        0.4078
+
+----------------------------------------
+METHOD lnn.bnc
+
+
+Average precision for all points
+   11-pt Avg:     0.4774 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4811 
+Recall:
+    Exact:        0.5430
+Precision:
+    Exact:        0.3933
+Truncated Precision:
+    Exact:        0.3933
+
+----------------------------------------
+METHOD lnn.btc
+
+
+Average precision for all points
+   11-pt Avg:     0.5076 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5149 
+Recall:
+    Exact:        0.5642
+Precision:
+    Exact:        0.4078
+Truncated Precision:
+    Exact:        0.4078
+
+----------------------------------------
+METHOD lnn.ann
+
+
+Average precision for all points
+   11-pt Avg:     0.4763 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4786 
+Recall:
+    Exact:        0.5447
+Precision:
+    Exact:        0.3956
+Truncated Precision:
+    Exact:        0.3956
+
+----------------------------------------
+METHOD lnn.atn
+
+
+Average precision for all points
+   11-pt Avg:     0.5089 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5171 
+Recall:
+    Exact:        0.5647
+Precision:
+    Exact:        0.4089
+Truncated Precision:
+    Exact:        0.4089
+
+----------------------------------------
+METHOD lnn.anc
+
+
+Average precision for all points
+   11-pt Avg:     0.4770 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4786 
+Recall:
+    Exact:        0.5447
+Precision:
+    Exact:        0.3956
+Truncated Precision:
+    Exact:        0.3956
+
+----------------------------------------
+METHOD lnn.atc
+
+
+Average precision for all points
+   11-pt Avg:     0.5089 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5171 
+Recall:
+    Exact:        0.5647
+Precision:
+    Exact:        0.4089
+Truncated Precision:
+    Exact:        0.4089
+
+----------------------------------------
+METHOD lnn.lnn
+
+
+Average precision for all points
+   11-pt Avg:     0.4765 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4804 
+Recall:
+    Exact:        0.5444
+Precision:
+    Exact:        0.3944
+Truncated Precision:
+    Exact:        0.3944
+
+----------------------------------------
+METHOD lnn.ltn
+
+
+Average precision for all points
+   11-pt Avg:     0.5054 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5113 
+Recall:
+    Exact:        0.5613
+Precision:
+    Exact:        0.4056
+Truncated Precision:
+    Exact:        0.4056
+
+----------------------------------------
+METHOD lnn.lnc
+
+
+Average precision for all points
+   11-pt Avg:     0.4766 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.4793 
+Recall:
+    Exact:        0.5444
+Precision:
+    Exact:        0.3944
+Truncated Precision:
+    Exact:        0.3944
+
+----------------------------------------
+METHOD lnn.ltc
+
+
+Average precision for all points
+   11-pt Avg:     0.5054 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5113 
+Recall:
+    Exact:        0.5613
+Precision:
+    Exact:        0.4056
+Truncated Precision:
+    Exact:        0.4056
+
+----------------------------------------
+METHOD ltn.nnn
+
+
+Average precision for all points
+   11-pt Avg:     0.5007 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5069 
+Recall:
+    Exact:        0.5538
+Precision:
+    Exact:        0.3967
+Truncated Precision:
+    Exact:        0.3967
+
+----------------------------------------
+METHOD ltn.ntn
+
+
+Average precision for all points
+   11-pt Avg:     0.5087 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5099 
+Recall:
+    Exact:        0.5625
+Precision:
+    Exact:        0.4022
+Truncated Precision:
+    Exact:        0.4022
+
+----------------------------------------
+METHOD ltn.nnc
+
+
+Average precision for all points
+   11-pt Avg:     0.5007 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5069 
+Recall:
+    Exact:        0.5538
+Precision:
+    Exact:        0.3967
+Truncated Precision:
+    Exact:        0.3967
+
+----------------------------------------
+METHOD ltn.ntc
+
+
+Average precision for all points
+   11-pt Avg:     0.5087 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5099 
+Recall:
+    Exact:        0.5625
+Precision:
+    Exact:        0.4022
+Truncated Precision:
+    Exact:        0.4022
+
+----------------------------------------
+METHOD ltn.bnn
+
+
+Average precision for all points
+   11-pt Avg:     0.5076 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5149 
+Recall:
+    Exact:        0.5642
+Precision:
+    Exact:        0.4078
+Truncated Precision:
+    Exact:        0.4078
+
+----------------------------------------
+METHOD ltn.btn
+
+
+Average precision for all points
+   11-pt Avg:     0.5155 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5198 
+Recall:
+    Exact:        0.5759
+Precision:
+    Exact:        0.4144
+Truncated Precision:
+    Exact:        0.4144
+
+----------------------------------------
+METHOD ltn.bnc
+
+
+Average precision for all points
+   11-pt Avg:     0.5076 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5149 
+Recall:
+    Exact:        0.5642
+Precision:
+    Exact:        0.4078
+Truncated Precision:
+    Exact:        0.4078
+
+----------------------------------------
+METHOD ltn.btc
+
+
+Average precision for all points
+   11-pt Avg:     0.5155 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5198 
+Recall:
+    Exact:        0.5759
+Precision:
+    Exact:        0.4144
+Truncated Precision:
+    Exact:        0.4144
+
+----------------------------------------
+METHOD ltn.ann
+
+
+Average precision for all points
+   11-pt Avg:     0.5089 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5171 
+Recall:
+    Exact:        0.5647
+Precision:
+    Exact:        0.4089
+Truncated Precision:
+    Exact:        0.4089
+
+----------------------------------------
+METHOD ltn.atn
+
+
+Average precision for all points
+   11-pt Avg:     0.5147 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5176 
+Recall:
+    Exact:        0.5772
+Precision:
+    Exact:        0.4144
+Truncated Precision:
+    Exact:        0.4144
+
+----------------------------------------
+METHOD ltn.anc
+
+
+Average precision for all points
+   11-pt Avg:     0.5089 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5171 
+Recall:
+    Exact:        0.5647
+Precision:
+    Exact:        0.4089
+Truncated Precision:
+    Exact:        0.4089
+
+----------------------------------------
+METHOD ltn.atc
+
+
+Average precision for all points
+   11-pt Avg:     0.5147 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5176 
+Recall:
+    Exact:        0.5772
+Precision:
+    Exact:        0.4144
+Truncated Precision:
+    Exact:        0.4144
+
+----------------------------------------
+METHOD ltn.lnn
+
+
+Average precision for all points
+   11-pt Avg:     0.5054 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5113 
+Recall:
+    Exact:        0.5613
+Precision:
+    Exact:        0.4056
+Truncated Precision:
+    Exact:        0.4056
+
+----------------------------------------
+METHOD ltn.ltn
+
+
+Average precision for all points
+   11-pt Avg:     0.5144 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5156 
+Recall:
+    Exact:        0.5733
+Precision:
+    Exact:        0.4111
+Truncated Precision:
+    Exact:        0.4111
+
+----------------------------------------
+METHOD ltn.lnc
+
+
+Average precision for all points
+   11-pt Avg:     0.5054 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5113 
+Recall:
+    Exact:        0.5613
+Precision:
+    Exact:        0.4056
+Truncated Precision:
+    Exact:        0.4056
+
+----------------------------------------
+METHOD ltn.ltc
+
+
+Average precision for all points
+   11-pt Avg:     0.5144 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5156 
+Recall:
+    Exact:        0.5733
+Precision:
+    Exact:        0.4111
+Truncated Precision:
+    Exact:        0.4111
+
+----------------------------------------
+METHOD lnc.nnn
+
+
+Average precision for all points
+   11-pt Avg:     0.5028 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5096 
+Recall:
+    Exact:        0.5428
+Precision:
+    Exact:        0.3922
+Truncated Precision:
+    Exact:        0.3922
+
+----------------------------------------
+METHOD lnc.ntn
+
+
+Average precision for all points
+   11-pt Avg:     0.5264 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5314 
+Recall:
+    Exact:        0.5806
+Precision:
+    Exact:        0.4189
+Truncated Precision:
+    Exact:        0.4189
+
+----------------------------------------
+METHOD lnc.nnc
+
+
+Average precision for all points
+   11-pt Avg:     0.5028 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5096 
+Recall:
+    Exact:        0.5428
+Precision:
+    Exact:        0.3922
+Truncated Precision:
+    Exact:        0.3922
+
+----------------------------------------
+METHOD lnc.ntc
+
+
+Average precision for all points
+   11-pt Avg:     0.5264 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5314 
+Recall:
+    Exact:        0.5806
+Precision:
+    Exact:        0.4189
+Truncated Precision:
+    Exact:        0.4189
+
+----------------------------------------
+METHOD lnc.bnn
+
+
+Average precision for all points
+   11-pt Avg:     0.5086 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5106 
+Recall:
+    Exact:        0.5560
+Precision:
+    Exact:        0.4056
+Truncated Precision:
+    Exact:        0.4056
+
+----------------------------------------
+METHOD lnc.btn
+
+
+Average precision for all points
+   11-pt Avg:     0.5334 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5357 
+Recall:
+    Exact:        0.5920
+Precision:
+    Exact:        0.4311
+Truncated Precision:
+    Exact:        0.4311
+
+----------------------------------------
+METHOD lnc.bnc
+
+
+Average precision for all points
+   11-pt Avg:     0.5086 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5106 
+Recall:
+    Exact:        0.5560
+Precision:
+    Exact:        0.4056
+Truncated Precision:
+    Exact:        0.4056
+
+----------------------------------------
+METHOD lnc.btc
+
+
+Average precision for all points
+   11-pt Avg:     0.5334 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5357 
+Recall:
+    Exact:        0.5920
+Precision:
+    Exact:        0.4311
+Truncated Precision:
+    Exact:        0.4311
+
+----------------------------------------
+METHOD lnc.ann
+
+
+Average precision for all points
+   11-pt Avg:     0.5069 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5095 
+Recall:
+    Exact:        0.5550
+Precision:
+    Exact:        0.4067
+Truncated Precision:
+    Exact:        0.4067
+
+----------------------------------------
+METHOD lnc.atn
+
+
+Average precision for all points
+   11-pt Avg:     0.5359 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5380 
+Recall:
+    Exact:        0.5928
+Precision:
+    Exact:        0.4322
+Truncated Precision:
+    Exact:        0.4322
+
+----------------------------------------
+METHOD lnc.anc
+
+
+Average precision for all points
+   11-pt Avg:     0.5069 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5095 
+Recall:
+    Exact:        0.5550
+Precision:
+    Exact:        0.4067
+Truncated Precision:
+    Exact:        0.4067
+
+----------------------------------------
+METHOD lnc.atc
+
+
+Average precision for all points
+   11-pt Avg:     0.5359 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5380 
+Recall:
+    Exact:        0.5928
+Precision:
+    Exact:        0.4322
+Truncated Precision:
+    Exact:        0.4322
+
+----------------------------------------
+METHOD lnc.lnn
+
+
+Average precision for all points
+   11-pt Avg:     0.5071 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5116 
+Recall:
+    Exact:        0.5534
+Precision:
+    Exact:        0.4022
+Truncated Precision:
+    Exact:        0.4022
+
+----------------------------------------
+METHOD lnc.ltn
+
+
+Average precision for all points
+   11-pt Avg:     0.5307 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5357 
+Recall:
+    Exact:        0.5894
+Precision:
+    Exact:        0.4278
+Truncated Precision:
+    Exact:        0.4278
+
+----------------------------------------
+METHOD lnc.lnc
+
+
+Average precision for all points
+   11-pt Avg:     0.5071 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5116 
+Recall:
+    Exact:        0.5534
+Precision:
+    Exact:        0.4022
+Truncated Precision:
+    Exact:        0.4022
+
+----------------------------------------
+METHOD lnc.ltc
+
+
+Average precision for all points
+   11-pt Avg:     0.5307 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5357 
+Recall:
+    Exact:        0.5894
+Precision:
+    Exact:        0.4278
+Truncated Precision:
+    Exact:        0.4278
+
+----------------------------------------
+METHOD ltc.nnn
+
+
+Average precision for all points
+   11-pt Avg:     0.5161 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5233 
+Recall:
+    Exact:        0.5690
+Precision:
+    Exact:        0.4122
+Truncated Precision:
+    Exact:        0.4122
+
+----------------------------------------
+METHOD ltc.ntn
+
+
+Average precision for all points
+   11-pt Avg:     0.5205 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5286 
+Recall:
+    Exact:        0.5899
+Precision:
+    Exact:        0.4222
+Truncated Precision:
+    Exact:        0.4222
+
+----------------------------------------
+METHOD ltc.nnc
+
+
+Average precision for all points
+   11-pt Avg:     0.5161 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5233 
+Recall:
+    Exact:        0.5690
+Precision:
+    Exact:        0.4122
+Truncated Precision:
+    Exact:        0.4122
+
+----------------------------------------
+METHOD ltc.ntc
+
+
+Average precision for all points
+   11-pt Avg:     0.5205 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5286 
+Recall:
+    Exact:        0.5899
+Precision:
+    Exact:        0.4222
+Truncated Precision:
+    Exact:        0.4222
+
+----------------------------------------
+METHOD ltc.bnn
+
+
+Average precision for all points
+   11-pt Avg:     0.5258 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5305 
+Recall:
+    Exact:        0.5824
+Precision:
+    Exact:        0.4256
+Truncated Precision:
+    Exact:        0.4256
+
+----------------------------------------
+METHOD ltc.btn
+
+
+Average precision for all points
+   11-pt Avg:     0.5287 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5373 
+Recall:
+    Exact:        0.5999
+Precision:
+    Exact:        0.4344
+Truncated Precision:
+    Exact:        0.4344
+
+----------------------------------------
+METHOD ltc.bnc
+
+
+Average precision for all points
+   11-pt Avg:     0.5258 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5305 
+Recall:
+    Exact:        0.5824
+Precision:
+    Exact:        0.4256
+Truncated Precision:
+    Exact:        0.4256
+
+----------------------------------------
+METHOD ltc.btc
+
+
+Average precision for all points
+   11-pt Avg:     0.5287 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5373 
+Recall:
+    Exact:        0.5999
+Precision:
+    Exact:        0.4344
+Truncated Precision:
+    Exact:        0.4344
+
+----------------------------------------
+METHOD ltc.ann
+
+
+Average precision for all points
+   11-pt Avg:     0.5279 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5347 
+Recall:
+    Exact:        0.5839
+Precision:
+    Exact:        0.4267
+Truncated Precision:
+    Exact:        0.4267
+
+----------------------------------------
+METHOD ltc.atn
+
+
+Average precision for all points
+   11-pt Avg:     0.5326 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5415 
+Recall:
+    Exact:        0.6064
+Precision:
+    Exact:        0.4411
+Truncated Precision:
+    Exact:        0.4411
+
+----------------------------------------
+METHOD ltc.anc
+
+
+Average precision for all points
+   11-pt Avg:     0.5279 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5347 
+Recall:
+    Exact:        0.5839
+Precision:
+    Exact:        0.4267
+Truncated Precision:
+    Exact:        0.4267
+
+----------------------------------------
+METHOD ltc.atc
+
+
+Average precision for all points
+   11-pt Avg:     0.5326 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5415 
+Recall:
+    Exact:        0.6064
+Precision:
+    Exact:        0.4411
+Truncated Precision:
+    Exact:        0.4411
+
+----------------------------------------
+METHOD ltc.lnn
+
+
+Average precision for all points
+   11-pt Avg:     0.5215 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5253 
+Recall:
+    Exact:        0.5789
+Precision:
+    Exact:        0.4211
+Truncated Precision:
+    Exact:        0.4211
+
+----------------------------------------
+METHOD ltc.ltn
+
+
+Average precision for all points
+   11-pt Avg:     0.5254 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5343 
+Recall:
+    Exact:        0.6008
+Precision:
+    Exact:        0.4333
+Truncated Precision:
+    Exact:        0.4333
+
+----------------------------------------
+METHOD ltc.lnc
+
+
+Average precision for all points
+   11-pt Avg:     0.5215 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5253 
+Recall:
+    Exact:        0.5789
+Precision:
+    Exact:        0.4211
+Truncated Precision:
+    Exact:        0.4211
+
+----------------------------------------
+METHOD ltc.ltc
+
+
+Average precision for all points
+   11-pt Avg:     0.5254 
+Average precision for 3 intermediate points (0.20, 0.50, 0.80)
+    3-pt Avg:     0.5343 
+Recall:
+    Exact:        0.6008
+Precision:
+    Exact:        0.4333
+Truncated Precision:
+    Exact:        0.4333
+
+----------------------------------------

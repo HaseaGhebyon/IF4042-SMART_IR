@@ -1,0 +1,28 @@
+#! /bin/tcsh
+
+set bin = /home/smart/src/bin
+set current = /home/smart/src/test_npl
+set database = $current/indexed
+
+#########################################################################
+# Make the npl test collection
+#########################################################################
+# ./make_npl
+# echo "collection made"
+
+/bin/rm -rf test
+mkdir test
+cd test
+
+#########################################################################
+# Perform two retrieval runs with the vectors already prepared by make_npl
+#########################################################################
+cat > spec.nnn << EOF
+include_file $database/spec
+tr_file ./tr.nnn # Retrieve n document
+rr_file ./rr.nnn # Retrieve all relevant document
+run_name "Doc weight == Query weight == nnn"
+EOF
+
+$bin/smart retrieve spec.nnn
+echo "retrieval run nnn.nnn done"

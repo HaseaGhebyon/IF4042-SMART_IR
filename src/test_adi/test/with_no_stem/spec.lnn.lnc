@@ -1,0 +1,7 @@
+include_file /home/smart/src/test_adi/indexed/with_no_stem/spec
+query_file query.lnc
+doc_file doc.lnn
+inv_file inv.lnn
+tr_file ./tr.lnn.lnc
+rr_file ./rr.lnn.lnc
+run_name " Doc weight == lnn; Query weight == lnc;"

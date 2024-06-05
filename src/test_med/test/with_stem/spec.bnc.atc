@@ -1,0 +1,7 @@
+include_file /home/smart/src/test_med/indexed/with_stem/spec
+query_file query.atc
+doc_file doc.bnc
+inv_file inv.bnc
+tr_file ./tr.bnc.atc
+rr_file ./rr.bnc.atc
+run_name " Doc weight == bnc; Query weight == atc;"

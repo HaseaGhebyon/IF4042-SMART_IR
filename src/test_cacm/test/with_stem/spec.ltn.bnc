@@ -1,0 +1,7 @@
+include_file /home/smart/src/test_cacm/indexed/with_stem/spec
+query_file query.bnc
+doc_file doc.ltn
+inv_file inv.ltn
+tr_file ./tr.ltn.bnc
+rr_file ./rr.ltn.bnc
+run_name " Doc weight == ltn; Query weight == bnc;"

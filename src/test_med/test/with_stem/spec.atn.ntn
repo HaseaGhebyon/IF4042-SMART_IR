@@ -1,0 +1,7 @@
+include_file /home/smart/src/test_med/indexed/with_stem/spec
+query_file query.ntn
+doc_file doc.atn
+inv_file inv.atn
+tr_file ./tr.atn.ntn
+rr_file ./rr.atn.ntn
+run_name " Doc weight == atn; Query weight == ntn;"

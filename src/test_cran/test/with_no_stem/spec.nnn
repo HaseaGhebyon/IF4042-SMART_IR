@@ -1,0 +1,4 @@
+include_file /home/smart/src/test_cran/indexed/with_no_stem/spec
+tr_file ./tr.nnn # Retrieve n document
+rr_file ./rr.nnn # Retrieve all relevant document
+run_name "Doc weight == Query weight == nnn"

@@ -1,0 +1,7 @@
+include_file /home/smart/src/test_cacm/indexed/with_stem/spec
+query_file query.btn
+doc_file doc.ntc
+inv_file inv.ntc
+tr_file ./tr.ntc.btn
+rr_file ./rr.ntc.btn
+run_name " Doc weight == ntc; Query weight == btn;"

@@ -1,0 +1,7 @@
+include_file /home/smart/src/test_cran/indexed/with_no_stem/spec
+query_file query.nnn
+doc_file doc.nnc
+inv_file inv.nnc
+tr_file ./tr.nnc.nnn
+rr_file ./rr.nnc.nnn
+run_name " Doc weight == nnc; Query weight == nnn;"

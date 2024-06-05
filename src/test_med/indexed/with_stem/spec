@@ -1,0 +1,38 @@
+## INFORMATION LOCATIONS
+database                /home/smart/src/test_med/indexed/with_stem
+include_file            /home/smart/lib/spec.expcoll
+doc_loc                 /home/smart/src/test_med/indexed/with_stem/doc_loc
+query_loc               /home/smart/src/test_med/indexed/with_stem/query_loc
+qrels_text_file         /home/smart/src/test_med/coll/MED.REL
+
+## MED DOCDESC
+#### GENERIC PREPARSER
+num_pp_sections                 3
+pp_section.0.string             ".I"
+pp_section.0.action             discard
+pp_section.0.oneline_flag       true
+pp_section.0.newdoc_flag        true
+pp_section.1.string             ".W"
+pp_section.1.section_name       w
+pp_section.2.string             ".O"
+pp_section.2.action             discard
+
+#### DESCRIPTION OF PARSE INPUT
+index.num_sections              1
+index.section.0.name            w
+  index.section.0.method        index.parse_sect.full
+  index.section.0.word.ctype    0
+  index.section.0.proper.ctype  0
+title_section 0
+
+#### DESCRIPTION OF FINAL VECTORS
+num_ctypes                      1
+ctype.0.name                    words
+
+## ALTERATIONS OF STANDARD PARAMETERS
+rmode                           SRDONLY|SMMAP
+rwmode                          SRDWR|SINCORE
+rwcmode                         SRDWR|SCREATE|SINCORE
+dict_file_size                  20011
+
+## ALTERATIONS OF STANDARD PROCEDURES

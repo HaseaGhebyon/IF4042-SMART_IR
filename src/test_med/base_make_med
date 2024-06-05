@@ -1,0 +1,137 @@
+#! /bin/csh
+# Make the med test collection.  Change first 4 pathnames as appropriate.
+# Med collection obtainable in ~ftp/pub/smart/med on  ftp.cs.cornell.edu
+
+set bin =     /home/smart/src/bin
+set srcdir = /home/smart/src
+set tlibdir = /home/smart/lib
+
+set current = $srcdir/test_med
+set database = $current/indexed
+set database_stem = $database/with_stem
+set database_no_stem = $database/with_no_stem
+
+set coll     = $current/coll
+set doc_loc = $coll/MED.ALL
+set query_loc = $coll/MED.QRY
+
+# CREATE NEW EMPTY COLLECTION
+/bin/rm -rf $database
+mkdir $database
+
+### CREATE EMPTY COLLECTION <- WITH STEM
+mkdir $database_stem
+cat > $database_stem/spec << EOF1
+## INFORMATION LOCATIONS
+database                $database_stem
+include_file            $tlibdir/spec.expcoll
+doc_loc                 $database_stem/doc_loc
+query_loc               $database_stem/query_loc
+qrels_text_file         $coll/MED.REL
+
+## MED DOCDESC
+#### GENERIC PREPARSER
+num_pp_sections                 3
+pp_section.0.string             ".I"
+pp_section.0.action             discard
+pp_section.0.oneline_flag       true
+pp_section.0.newdoc_flag        true
+pp_section.1.string             ".W"
+pp_section.1.section_name       w
+pp_section.2.string             ".O"
+pp_section.2.action             discard
+
+#### DESCRIPTION OF PARSE INPUT
+index.num_sections              1
+index.section.0.name            w
+  index.section.0.method        index.parse_sect.full
+  index.section.0.word.ctype    0
+  index.section.0.proper.ctype  0
+title_section 0
+
+#### DESCRIPTION OF FINAL VECTORS
+num_ctypes                      1
+ctype.0.name                    words
+
+## ALTERATIONS OF STANDARD PARAMETERS
+rmode                           SRDONLY|SMMAP
+rwmode                          SRDWR|SINCORE
+rwcmode                         SRDWR|SCREATE|SINCORE
+dict_file_size                  20011
+
+## ALTERATIONS OF STANDARD PROCEDURES
+EOF1
+
+echo ""
+
+# Copy auxiliary files to collection
+echo Creating new database at `date`
+echo "$doc_loc" > $database_stem/doc_loc
+echo "$query_loc" > $database_stem/query_loc
+
+#index the collection
+echo Indexing docs,queries,rels at `date`
+$bin/smart exp_coll $database_stem/spec
+
+
+
+
+# ====================================================
+### CREATE EMPTY COLLECTION <- WITHOUT STEM
+mkdir $database_no_stem
+cat > $database_no_stem/spec << EOF1
+## INFORMATION LOCATIONS
+database                $database_no_stem
+include_file            $tlibdir/spec.expcoll
+doc_loc                 $database_no_stem/doc_loc
+query_loc               $database_no_stem/query_loc
+qrels_text_file         $coll/MED.REL.OLD
+
+## MED DOCDESC
+#### GENERIC PREPARSER
+num_pp_sections                 3
+pp_section.0.string             ".I"
+pp_section.0.action             discard
+pp_section.0.oneline_flag       true
+pp_section.0.newdoc_flag        true
+pp_section.1.string             ".W"
+pp_section.1.section_name       w
+pp_section.2.string             ".O"
+pp_section.2.action             discard
+
+#### DESCRIPTION OF PARSE INPUT
+index.num_sections              1
+index.section.0.name            w
+  index.section.0.method        index.parse_sect.full
+  index.section.0.word.ctype    0
+  index.section.0.word.stem_wanted 0
+  index.section.0.proper.ctype  0
+title_section 0
+
+#### DESCRIPTION OF FINAL VECTORS
+num_ctypes                      1
+ctype.0.name                    words
+
+## ALTERATIONS OF STANDARD PARAMETERS
+rmode                           SRDONLY|SMMAP
+rwmode                          SRDWR|SINCORE
+rwcmode                         SRDWR|SCREATE|SINCORE
+dict_file_size                  20011
+
+## ALTERATIONS OF STANDARD PROCEDURES
+EOF1
+
+echo ""
+
+# Copy auxiliary files to collection
+echo Creating new database at `date`
+echo "$doc_loc" > $database_no_stem/doc_loc
+echo "$query_loc" > $database_no_stem/query_loc
+
+#index the collection
+echo Indexing docs,queries,rels at `date`
+$bin/smart exp_coll $database_no_stem/spec
+
+echo ""
+echo All done at `date`
+echo ""

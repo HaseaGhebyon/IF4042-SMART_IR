@@ -1,0 +1,435 @@
+#! /bin/csh
+# Make the cacm test collection.  Change first 4 pathnames as appropriate.
+# Cacm collection obtainable in ~ftp/pub/smart/cacm on  ftp.cs.cornell.edu
+
+set bin =     /home/smart/src/bin
+set src = /home/smart/src
+set tlibdir = /home/smart/lib
+
+set current = $src/test_cacm
+set database = $current/indexed
+set database_stem = $database/with_stem
+set database_no_stem = $database/with_no_stem
+
+set coll     = $current/coll
+set doc_loc = $coll/cacm.all
+set query_loc = $coll/query.text
+
+# CREATE NEW EMPTY COLLECTION
+/bin/rm -rf $database
+
+mkdir $database
+
+### CREATE EMPTY COLLECTION <- WITH STEM
+mkdir $database_stem
+cat > $database_stem/spec << EOF1
+## INFORMATION LOCATIONS
+database                $database_stem
+include_file            $tlibdir/spec.expcoll
+doc_loc                 $database_stem/doc_loc
+query_loc               $database_stem/query_loc
+qrels_text_file         $coll/qrels.text
+
+## CACM DOCDESC
+#### GENERIC PREPARSER
+num_pp_sections                 10
+pp_section.0.string             ".I"
+pp_section.0.action             discard
+pp_section.0.oneline_flag       true
+pp_section.0.newdoc_flag        true
+pp_section.1.string             ".A"
+pp_section.1.section_name       a
+pp_section.2.string             ".B"
+pp_section.2.action             discard
+pp_section.3.string             ".W"
+pp_section.3.section_name       w
+pp_section.4.string             ".T"
+pp_section.4.section_name       t
+pp_section.5.string             ".C"
+pp_section.2.action             discard
+pp_section.6.string             ".K"
+pp_section.6.section_name       k
+pp_section.7.string             ".N"
+pp_section.7.action             discard
+pp_section.8.string             ".X"
+pp_section.8.action             discard
+pp_section.9.string             ".O"
+pp_section.9.action             discard
+
+#### DESCRIPTION OF PARSE INPUT
+index.num_sections              4
+index.section.0.name            a
+  index.section.0.method        index.parse_sect.name
+  index.section.0.word.ctype    0
+  index.section.0.word.stem_wanted 0
+  index.section.0.word.stop_wanted 0
+index.section.1.name            w
+  index.section.1.method        index.parse_sect.full
+  index.section.1.word.ctype    0
+  index.section.1.word.stop_file  $coll/common_words
+  index.section.1.proper.ctype  0
+index.section.2.name            t
+  index.section.2.method        index.parse_sect.full
+  index.section.2.word.ctype    0
+  index.section.2.word.stop_file  $coll/common_words
+  index.section.2.proper.ctype  0
+index.section.3.name            k
+  index.section.3.method        index.parse_sect.full
+  index.section.3.word.ctype    0
+  index.section.1.word.stop_file  $coll/common_words
+  index.section.3.proper.ctype  0
+title_section 2
+
+#### DESCRIPTION OF FINAL VECTORS
+num_ctypes                      1
+ctype.0.name                    words
+
+## ALTERATIONS OF STANDARD PARAMETERS
+dict_file_size                  20003
+rmode                           SRDONLY|SMMAP
+rwmode                          SRDWR|SINCORE
+rwcmode                         SRDWR|SCREATE|SINCORE
+
+EOF1
+
+echo ""
+
+# Copy auxiliary files to collection
+echo Creating new database with STEM at `date`
+echo "$doc_loc" > $database_stem/doc_loc
+echo "$query_loc" > $database_stem/query_loc
+
+# Index the collection
+echo Indexing docs,queries,rels with STEM at `date`
+$bin/smart exp_coll $database_stem/spec
+
+
+
+# ====================================================
+### CREATE EMPTY COLLECTION <- WITH NO STEM
+mkdir $database_no_stem
+cat > $database_no_stem/spec << EOF1
+## INFORMATION LOCATIONS
+database                $database_no_stem
+include_file            $tlibdir/spec.expcoll
+doc_loc                 $database_no_stem/doc_loc
+query_loc               $database_no_stem/query_loc
+qrels_text_file         $coll/qrels.text
+
+## CACM DOCDESC
+#### GENERIC PREPARSER
+num_pp_sections                 10
+pp_section.0.string             ".I"
+pp_section.0.action             discard
+pp_section.0.oneline_flag       true
+pp_section.0.newdoc_flag        true
+pp_section.1.string             ".A"
+pp_section.1.section_name       a
+pp_section.2.string             ".B"
+pp_section.2.action             discard
+pp_section.3.string             ".W"
+pp_section.3.section_name       w
+pp_section.4.string             ".T"
+pp_section.4.section_name       t
+pp_section.5.string             ".C"
+pp_section.2.action             discard
+pp_section.6.string             ".K"
+pp_section.6.section_name       k
+pp_section.7.string             ".N"
+pp_section.7.action             discard
+pp_section.8.string             ".X"
+pp_section.8.action             discard
+pp_section.9.string             ".O"
+pp_section.9.action             discard
+
+#### DESCRIPTION OF PARSE INPUT
+index.num_sections              4
+index.section.0.name            a
+  index.section.0.method        index.parse_sect.name
+  index.section.0.word.ctype    0
+  index.section.0.word.stem_wanted 0
+  index.section.0.word.stop_wanted 0
+index.section.1.name            w
+  index.section.1.method        index.parse_sect.full
+  index.section.1.word.ctype    0
+  index.section.1.word.stop_file  $coll/common_words
+  index.section.1.word.stem_wanted 0
+  index.section.1.proper.ctype  0
+index.section.2.name            t
+  index.section.2.method        index.parse_sect.full
+  index.section.2.word.ctype    0
+  index.section.2.word.stop_file  $coll/common_words
+  index.section.2.word.stem_wanted 0
+  index.section.2.proper.ctype  0
+index.section.3.name            k
+  index.section.3.method        index.parse_sect.full
+  index.section.3.word.ctype    0
+  index.section.2.word.stop_file  $coll/common_words
+  index.section.3.word.stem_wanted 0
+  index.section.3.proper.ctype  0
+title_section 2
+
+#### DESCRIPTION OF FINAL VECTORS
+num_ctypes                      1
+ctype.0.name                    words
+
+## ALTERATIONS OF STANDARD PARAMETERS
+dict_file_size                  20003
+rmode                           SRDONLY|SMMAP
+rwmode                          SRDWR|SINCORE
+rwcmode                         SRDWR|SCREATE|SINCORE
+
+EOF1
+
+echo ""
+
+echo Creating new database without STEM at `date`
+echo "$doc_loc" > $database_no_stem/doc_loc
+echo "$query_loc" > $database_no_stem/query_loc
+
+
+echo Indexing docs,queries,rels with STEM at `date`
+$bin/smart exp_coll $database_no_stem/spec
+
+echo ""
+echo All done at `date`
+echo ""echo "Create ntn versions at `date`"
+$bin/smart convert $database_stem/spec   proc convert.obj.weight_query \
+                   in query.nnn  out query.ntn   query_weight ntn
+$bin/smart convert $database_stem/spec   proc convert.obj.weight_doc \
+                   in doc.nnn  out doc.ntn   doc_weight ntn
+$bin/smart convert $database_stem/spec   proc convert.obj.vec_aux  \
+                   in doc.ntn  out inv.ntn
+
+echo "Create nnc versions at `date`"
+$bin/smart convert $database_stem/spec   proc convert.obj.weight_query \
+                   in query.nnn  out query.nnc   query_weight nnc
+$bin/smart convert $database_stem/spec   proc convert.obj.weight_doc \
+                   in doc.nnn  out doc.nnc   doc_weight nnc
+$bin/smart convert $database_stem/spec   proc convert.obj.vec_aux  \
+                   in doc.nnc  out inv.nnc
+
+echo "Create ntc versions at `date`"
+$bin/smart convert $database_stem/spec   proc convert.obj.weight_query \
+                   in query.nnn  out query.ntc   query_weight ntc
+$bin/smart convert $database_stem/spec   proc convert.obj.weight_doc \
+                   in doc.nnn  out doc.ntc   doc_weight ntc
+$bin/smart convert $database_stem/spec   proc convert.obj.vec_aux  \
+                   in doc.ntc  out inv.ntc
+
+echo "Create bnn versions at `date`"
+$bin/smart convert $database_stem/spec   proc convert.obj.weight_query \
+                   in query.nnn  out query.bnn   query_weight bnn
+$bin/smart convert $database_stem/spec   proc convert.obj.weight_doc \
+                   in doc.nnn  out doc.bnn   doc_weight bnn
+$bin/smart convert $database_stem/spec   proc convert.obj.vec_aux  \
+                   in doc.bnn  out inv.bnn
+
+echo "Create btn versions at `date`"
+$bin/smart convert $database_stem/spec   proc convert.obj.weight_query \
+                   in query.nnn  out query.btn   query_weight btn
+$bin/smart convert $database_stem/spec   proc convert.obj.weight_doc \
+                   in doc.nnn  out doc.btn   doc_weight btn
+$bin/smart convert $database_stem/spec   proc convert.obj.vec_aux  \
+                   in doc.btn  out inv.btn
+
+echo "Create bnc versions at `date`"
+$bin/smart convert $database_stem/spec   proc convert.obj.weight_query \
+                   in query.nnn  out query.bnc   query_weight bnc
+$bin/smart convert $database_stem/spec   proc convert.obj.weight_doc \
+                   in doc.nnn  out doc.bnc   doc_weight bnc
+$bin/smart convert $database_stem/spec   proc convert.obj.vec_aux  \
+                   in doc.bnc  out inv.bnc
+
+echo "Create btc versions at `date`"
+$bin/smart convert $database_stem/spec   proc convert.obj.weight_query \
+                   in query.nnn  out query.btc   query_weight btc
+$bin/smart convert $database_stem/spec   proc convert.obj.weight_doc \
+                   in doc.nnn  out doc.btc   doc_weight btc
+$bin/smart convert $database_stem/spec   proc convert.obj.vec_aux  \
+                   in doc.btc  out inv.btc
+
+echo "Create ann versions at `date`"
+$bin/smart convert $database_stem/spec   proc convert.obj.weight_query \
+                   in query.nnn  out query.ann   query_weight ann
+$bin/smart convert $database_stem/spec   proc convert.obj.weight_doc \
+                   in doc.nnn  out doc.ann   doc_weight ann
+$bin/smart convert $database_stem/spec   proc convert.obj.vec_aux  \
+                   in doc.ann  out inv.ann
+
+echo "Create atn versions at `date`"
+$bin/smart convert $database_stem/spec   proc convert.obj.weight_query \
+                   in query.nnn  out query.atn   query_weight atn
+$bin/smart convert $database_stem/spec   proc convert.obj.weight_doc \
+                   in doc.nnn  out doc.atn   doc_weight atn
+$bin/smart convert $database_stem/spec   proc convert.obj.vec_aux  \
+                   in doc.atn  out inv.atn
+
+echo "Create anc versions at `date`"
+$bin/smart convert $database_stem/spec   proc convert.obj.weight_query \
+                   in query.nnn  out query.anc   query_weight anc
+$bin/smart convert $database_stem/spec   proc convert.obj.weight_doc \
+                   in doc.nnn  out doc.anc   doc_weight anc
+$bin/smart convert $database_stem/spec   proc convert.obj.vec_aux  \
+                   in doc.anc  out inv.anc
+
+echo "Create atc versions at `date`"
+$bin/smart convert $database_stem/spec   proc convert.obj.weight_query \
+                   in query.nnn  out query.atc   query_weight atc
+$bin/smart convert $database_stem/spec   proc convert.obj.weight_doc \
+                   in doc.nnn  out doc.atc   doc_weight atc
+$bin/smart convert $database_stem/spec   proc convert.obj.vec_aux  \
+                   in doc.atc  out inv.atc
+
+echo "Create lnn versions at `date`"
+$bin/smart convert $database_stem/spec   proc convert.obj.weight_query \
+                   in query.nnn  out query.lnn   query_weight lnn
+$bin/smart convert $database_stem/spec   proc convert.obj.weight_doc \
+                   in doc.nnn  out doc.lnn   doc_weight lnn
+$bin/smart convert $database_stem/spec   proc convert.obj.vec_aux  \
+                   in doc.lnn  out inv.lnn
+
+echo "Create ltn versions at `date`"
+$bin/smart convert $database_stem/spec   proc convert.obj.weight_query \
+                   in query.nnn  out query.ltn   query_weight ltn
+$bin/smart convert $database_stem/spec   proc convert.obj.weight_doc \
+                   in doc.nnn  out doc.ltn   doc_weight ltn
+$bin/smart convert $database_stem/spec   proc convert.obj.vec_aux  \
+                   in doc.ltn  out inv.ltn
+
+echo "Create lnc versions at `date`"
+$bin/smart convert $database_stem/spec   proc convert.obj.weight_query \
+                   in query.nnn  out query.lnc   query_weight lnc
+$bin/smart convert $database_stem/spec   proc convert.obj.weight_doc \
+                   in doc.nnn  out doc.lnc   doc_weight lnc
+$bin/smart convert $database_stem/spec   proc convert.obj.vec_aux  \
+                   in doc.lnc  out inv.lnc
+
+echo "Create ltc versions at `date`"
+$bin/smart convert $database_stem/spec   proc convert.obj.weight_query \
+                   in query.nnn  out query.ltc   query_weight ltc
+$bin/smart convert $database_stem/spec   proc convert.obj.weight_doc \
+                   in doc.nnn  out doc.ltc   doc_weight ltc
+$bin/smart convert $database_stem/spec   proc convert.obj.vec_aux  \
+                   in doc.ltc  out inv.ltc
+
+echo "Create ntn versions at `date`"
+$bin/smart convert $database_no_stem/spec   proc convert.obj.weight_query \
+                   in query.nnn  out query.ntn   query_weight ntn
+$bin/smart convert $database_no_stem/spec   proc convert.obj.weight_doc \
+                   in doc.nnn  out doc.ntn   doc_weight ntn
+$bin/smart convert $database_no_stem/spec   proc convert.obj.vec_aux  \
+                   in doc.ntn  out inv.ntn
+
+echo "Create nnc versions at `date`"
+$bin/smart convert $database_no_stem/spec   proc convert.obj.weight_query \
+                   in query.nnn  out query.nnc   query_weight nnc
+$bin/smart convert $database_no_stem/spec   proc convert.obj.weight_doc \
+                   in doc.nnn  out doc.nnc   doc_weight nnc
+$bin/smart convert $database_no_stem/spec   proc convert.obj.vec_aux  \
+                   in doc.nnc  out inv.nnc
+
+echo "Create ntc versions at `date`"
+$bin/smart convert $database_no_stem/spec   proc convert.obj.weight_query \
+                   in query.nnn  out query.ntc   query_weight ntc
+$bin/smart convert $database_no_stem/spec   proc convert.obj.weight_doc \
+                   in doc.nnn  out doc.ntc   doc_weight ntc
+$bin/smart convert $database_no_stem/spec   proc convert.obj.vec_aux  \
+                   in doc.ntc  out inv.ntc
+
+echo "Create bnn versions at `date`"
+$bin/smart convert $database_no_stem/spec   proc convert.obj.weight_query \
+                   in query.nnn  out query.bnn   query_weight bnn
+$bin/smart convert $database_no_stem/spec   proc convert.obj.weight_doc \
+                   in doc.nnn  out doc.bnn   doc_weight bnn
+$bin/smart convert $database_no_stem/spec   proc convert.obj.vec_aux  \
+                   in doc.bnn  out inv.bnn
+
+echo "Create btn versions at `date`"
+$bin/smart convert $database_no_stem/spec   proc convert.obj.weight_query \
+                   in query.nnn  out query.btn   query_weight btn
+$bin/smart convert $database_no_stem/spec   proc convert.obj.weight_doc \
+                   in doc.nnn  out doc.btn   doc_weight btn
+$bin/smart convert $database_no_stem/spec   proc convert.obj.vec_aux  \
+                   in doc.btn  out inv.btn
+
+echo "Create bnc versions at `date`"
+$bin/smart convert $database_no_stem/spec   proc convert.obj.weight_query \
+                   in query.nnn  out query.bnc   query_weight bnc
+$bin/smart convert $database_no_stem/spec   proc convert.obj.weight_doc \
+                   in doc.nnn  out doc.bnc   doc_weight bnc
+$bin/smart convert $database_no_stem/spec   proc convert.obj.vec_aux  \
+                   in doc.bnc  out inv.bnc
+
+echo "Create btc versions at `date`"
+$bin/smart convert $database_no_stem/spec   proc convert.obj.weight_query \
+                   in query.nnn  out query.btc   query_weight btc
+$bin/smart convert $database_no_stem/spec   proc convert.obj.weight_doc \
+                   in doc.nnn  out doc.btc   doc_weight btc
+$bin/smart convert $database_no_stem/spec   proc convert.obj.vec_aux  \
+                   in doc.btc  out inv.btc
+
+echo "Create ann versions at `date`"
+$bin/smart convert $database_no_stem/spec   proc convert.obj.weight_query \
+                   in query.nnn  out query.ann   query_weight ann
+$bin/smart convert $database_no_stem/spec   proc convert.obj.weight_doc \
+                   in doc.nnn  out doc.ann   doc_weight ann
+$bin/smart convert $database_no_stem/spec   proc convert.obj.vec_aux  \
+                   in doc.ann  out inv.ann
+
+echo "Create atn versions at `date`"
+$bin/smart convert $database_no_stem/spec   proc convert.obj.weight_query \
+                   in query.nnn  out query.atn   query_weight atn
+$bin/smart convert $database_no_stem/spec   proc convert.obj.weight_doc \
+                   in doc.nnn  out doc.atn   doc_weight atn
+$bin/smart convert $database_no_stem/spec   proc convert.obj.vec_aux  \
+                   in doc.atn  out inv.atn
+
+echo "Create anc versions at `date`"
+$bin/smart convert $database_no_stem/spec   proc convert.obj.weight_query \
+                   in query.nnn  out query.anc   query_weight anc
+$bin/smart convert $database_no_stem/spec   proc convert.obj.weight_doc \
+                   in doc.nnn  out doc.anc   doc_weight anc
+$bin/smart convert $database_no_stem/spec   proc convert.obj.vec_aux  \
+                   in doc.anc  out inv.anc
+
+echo "Create atc versions at `date`"
+$bin/smart convert $database_no_stem/spec   proc convert.obj.weight_query \
+                   in query.nnn  out query.atc   query_weight atc
+$bin/smart convert $database_no_stem/spec   proc convert.obj.weight_doc \
+                   in doc.nnn  out doc.atc   doc_weight atc
+$bin/smart convert $database_no_stem/spec   proc convert.obj.vec_aux  \
+                   in doc.atc  out inv.atc
+
+echo "Create lnn versions at `date`"
+$bin/smart convert $database_no_stem/spec   proc convert.obj.weight_query \
+                   in query.nnn  out query.lnn   query_weight lnn
+$bin/smart convert $database_no_stem/spec   proc convert.obj.weight_doc \
+                   in doc.nnn  out doc.lnn   doc_weight lnn
+$bin/smart convert $database_no_stem/spec   proc convert.obj.vec_aux  \
+                   in doc.lnn  out inv.lnn
+
+echo "Create ltn versions at `date`"
+$bin/smart convert $database_no_stem/spec   proc convert.obj.weight_query \
+                   in query.nnn  out query.ltn   query_weight ltn
+$bin/smart convert $database_no_stem/spec   proc convert.obj.weight_doc \
+                   in doc.nnn  out doc.ltn   doc_weight ltn
+$bin/smart convert $database_no_stem/spec   proc convert.obj.vec_aux  \
+                   in doc.ltn  out inv.ltn
+
+echo "Create lnc versions at `date`"
+$bin/smart convert $database_no_stem/spec   proc convert.obj.weight_query \
+                   in query.nnn  out query.lnc   query_weight lnc
+$bin/smart convert $database_no_stem/spec   proc convert.obj.weight_doc \
+                   in doc.nnn  out doc.lnc   doc_weight lnc
+$bin/smart convert $database_no_stem/spec   proc convert.obj.vec_aux  \
+                   in doc.lnc  out inv.lnc
+
+echo "Create ltc versions at `date`"
+$bin/smart convert $database_no_stem/spec   proc convert.obj.weight_query \
+                   in query.nnn  out query.ltc   query_weight ltc
+$bin/smart convert $database_no_stem/spec   proc convert.obj.weight_doc \
+                   in doc.nnn  out doc.ltc   doc_weight ltc
+$bin/smart convert $database_no_stem/spec   proc convert.obj.vec_aux  \
+                   in doc.ltc  out inv.ltc
+

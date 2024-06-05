@@ -1,0 +1,7 @@
+include_file /home/smart/src/test_cacm/indexed/with_no_stem/spec
+query_file query.btn
+doc_file doc.atn
+inv_file inv.atn
+tr_file ./tr.atn.btn
+rr_file ./rr.atn.btn
+run_name " Doc weight == atn; Query weight == btn;"

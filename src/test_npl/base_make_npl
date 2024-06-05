@@ -1,0 +1,93 @@
+#! /bin/csh
+# Make the npl test collection from already indexed relational version.
+# Note that until recently only the indexed relational versoin was available.
+# Thanks to Bruce Croft and Karen Spark-Jones, the original text is
+# now available.  BUT THIS PROGRAM DOES NOT USE THE TEXT.
+# Change first 4 pathnames as appropriate.
+# Npl collection obtainable in ~ftp/pub/smart/npl on  ftp.cs.cornell.edu
+
+# This is a good sample of how to get an already indexed collection from
+# some other ir system into SMART.
+# Note this does not make a full collection, only enough for normal
+# retrieval, feedback and evaluation.  Anything that needs text won't work.
+
+# set echo verbose
+
+# 
+set bin =     /home/smart/src/bin
+set srcdir = /home/smart/src
+set tlibdir = /home/smart/lib
+
+set current = $srcdir/test_npl
+set database = $current/indexed
+set database_stem = $database/with_stem
+set database_no_stem = $database/with_no_stem
+
+set coll     = $current/coll
+set doc_loc = $coll/doc-text
+set query_loc = $coll/query-text
+
+# CREATE NEW EMPTY COLLECTION
+/bin/rm -rf $database
+mkdir $database
+
+### CREATE EMPTY COLLECTION <- WITH STEM
+mkdir $database_stem
+cat > $database_stem/spec << EOF1
+## INFORMATION LOCATIONS
+database                $database_stem
+include_file            $tlibdir/spec.expcoll
+# doc_loc                 $database/doc_loc
+# query_loc               $database/query_loc
+qrels_text_file         $coll/term-mst
+
+## NPL DOCDESC
+#### GENERIC PREPARSER
+num_pp_sections                 1
+pp_section.0.string             "*TEXT"
+pp_section.0.newdoc_flag        true
+pp_section.0.section_name       t
+
+#### DESCRIPTION OF PARSE INPUT
+index.num_sections              1
+index.section.0.name            t
+  index.section.0.method        index.parse_sect.full
+  index.section.0.word.ctype    0
+
+#### DESCRIPTION OF FINAL VECTORS
+num_ctypes                      1
+ctype.0.name                    words
+
+## ALTERATIONS OF STANDARD PARAMETERS
+rmode                           SRDONLY|SMMAP
+rwmode                          SRDWR|SINCORE
+rwcmode                         SRDWR|SCREATE|SINCORE
+textloc_file                    -
+
+EOF1
+
+echo Creating new database at `date`
+
+#index the collection
+echo Converting docs, queries, relevance judgements at `date`
+$bin/smart convert $database_stem/spec  proc convert.obj.text_vec \
+                   in $coll/doc-vecs   out $database_stem/doc.nnn
+$bin/smart convert $database_stem/spec   proc convert.obj.vec_aux  \
+                   in $database_stem/doc.nnn  out $database_stem/inv.nnn
+$bin/smart convert $database_stem/spec  proc convert.obj.text_vec \
+                   in $coll/query-vec     out $database_stem/query.nnn
+$bin/smart convert $database_stem/spec  proc convert.obj.text_rr \
+                   in $coll/term-vecs     out $database_stem/qrels
+
+# time
+
+# # Create atc (a tf*idf variant) versions of docs and queries
+# $bin/smart convert $database/spec   proc convert.obj.weight_query \
+#                    in query.nnn  out query.atc   query_weight atc
+# $bin/smart convert $database/spec   proc convert.obj.weight_doc \
+#                    in doc.nnn  out doc.atc   doc_weight atc
+# $bin/smart convert $database/spec   proc convert.obj.vec_aux  \
+#                    in doc.atc  out inv.atc
+
+# time
+# echo All done at `date`

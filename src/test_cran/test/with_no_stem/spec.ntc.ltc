@@ -1,0 +1,7 @@
+include_file /home/smart/src/test_cran/indexed/with_no_stem/spec
+query_file query.ltc
+doc_file doc.ntc
+inv_file inv.ntc
+tr_file ./tr.ntc.ltc
+rr_file ./rr.ntc.ltc
+run_name " Doc weight == ntc; Query weight == ltc;"
